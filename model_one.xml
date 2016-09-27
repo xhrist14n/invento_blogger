@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html 
+    xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:b="http://www.google.com/2005/gml/b" 
+    xmlns:data="http://www.google.com/2005/gml/data" 
+    xmlns:expr="http://www.google.com/2005/gml/expr">
+    <head>
+        <b:include data="blog" name="all-head-content"/>
+
+        <title>
+            <b:if cond="data:blog.pageType == &quot;index&quot;">
+                <data:blog.pageTitle/>
+                <b:else/>
+                <b:if cond="data:blog.pageType != &quot;error_page&quot;">
+                    <data:blog.pageName/> | <data:blog.title/>
+                    <b:else/>
+                    Pagina No Encontrada | <data:blog.title/> 
+                </b:if>
+            </b:if>
+        </title>
+
+        <b:if cond="data:blog.pageType == &quot;archive&quot;">
+            <meta content="noindex,noarchive" name="robots"/>
+        </b:if>
+        <b:if cond="data:blog.metaDescription != &quot;&quot;">
+            <meta expr:content="data:blog.metaDescription" name="description"/>
+        </b:if> 
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"/>
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet" type="text/css"/>
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+        
+        <link href="styles/main.css" rel="stylesheet"/>
+        <b:skin>
+        </b:skin>
+        <b:if cond="data:blog.pageType != &quot;item&quot;">
+            <b:if cond="data:blog.pageType != &quot;static_page&quot;">
+                <link href="styles/nonpagetype.css" rel="stylesheet"/>
+            </b:if>
+        </b:if>
+        <b:if cond="data:blog.pageType == &quot;item&quot;">
+            <style>
+                <link href="styles/pagetype.css" rel="stylesheet"/>
+            </style>
+        </b:if>
+        <b:if cond="data:blog.pageType == &quot;static_page&quot;">
+            <style>
+                <link href="styles/static_page.css" rel="stylesheet"/>
+            </style>
+        </b:if>
+         <script type="text/javascript" src="scripts/script_one.js"></script>
+    </head>
+     <body id="home">
+        
+        <b:section class="header" id="header" maxwidgets="1" showaddelement="yes">
+            hola mundo
+        </b:section>
+    </body>
+</html>
