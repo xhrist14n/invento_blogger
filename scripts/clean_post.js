@@ -14,7 +14,10 @@ function hide_all(){
         $("#PopularPosts2 h2").css("display","none");
     }catch(ex){}
     try{
-        $("#contact .widget .Attribution").css("display","none");
+        $(".widget-content").css("display","none");
+    }catch(ex){}
+    try{
+        $(".widget-item-control").css("display","none");
     }catch(ex){}
 }
 
