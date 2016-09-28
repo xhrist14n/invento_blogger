@@ -8,6 +8,7 @@
 $(
     function(){
         var url = '/feeds/posts/default/?max-results='+numposts1+'&orderby=published&alt=json-in-script&callback=blogpost';
+        console.log(url);
         $.get(
             url,
             function(data){
