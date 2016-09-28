@@ -4,9 +4,15 @@
  * and open the template in the editor.
  */
 function hide_all(){
-    $("#navbar-iframe").css("display","none");
-    $("#footer1").css("display","none");
-    $("#PopularPosts2 h2").css("display","none");
+    try{
+        $("#navbar-iframe").css("display","none");
+    }catch(ex){}
+    try{
+        $("#footer1").css("display","none");
+    }catch(ex){}
+    try{
+        $("#PopularPosts2 h2").css("display","none");
+    }catch(ex){}
 }
 
 $(
