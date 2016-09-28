@@ -2114,9 +2114,9 @@
         </svg>
 
         <div id='footer'>
-            <div class='ct-wrapper'>
-                <b:section class='footer' id='footer1' preferred='yes'>
-                    <b:widget id='Profile1' locked='false' title='About Me' type='Profile' version='1' visible='true'>
+            <div class='ct-wrapper' style='display:none;'>
+                <b:section class='footer' id='footer1' preferred='yes' >
+                    <b:widget id='Profile1' locked='false' title='About Me' type='Profile' version='1' visible='false'>
                         <b:includable id='main'>
                             <b:if cond='data:title != &quot;&quot;'>
                                 <h2>
@@ -2176,7 +2176,7 @@
                         </b:includable>
                     </b:widget>
                 </b:section>
-                <b:section class='footer' id='footer2' preferred='yes'>
+                <b:section class='footer' id='footer2' preferred='yes' style='display:none;'>
                     <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' version='1' visible='true'>
                         <b:includable id='main'>
                             <b:if cond='data:title'>
@@ -2253,7 +2253,7 @@
                         </b:includable>
                     </b:widget>
                 </b:section>
-                <b:section class='footer' id='footer3' preferred='yes'>
+                <b:section class='footer' id='footer3' preferred='yes' style='display:none;'>
                     <b:widget id='Label2' locked='false' title='Labels' type='Label' version='1' visible='true'>
                         <b:includable id='main'>
                             <b:if cond='data:title'>
