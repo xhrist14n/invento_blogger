@@ -25,7 +25,8 @@
         <div class='container'>
             <b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no'>
                 <b:widget id='Navbar1' locked='true' title='NavBar ' type='Navbar' visible='true'>
-                    <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
+                    <b:includable id='main'>
+                        &lt;script type=&quot;text/javascript&quot;&gt;
                         function setAttributeOnload(object, attribute, val) {
                         if(window.addEventListener) {
                         window.addEventListener(&#39;load&#39;,
@@ -62,7 +63,7 @@
             </b:section>
 
             <b:if cond='data:blog.pageType == &quot;index&quot;'>
-                <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+                <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: block;'>
                     <meta expr:content='data:blog.title' itemprop='name'/>
                     <b:if cond='data:blog.metaDescription'>
                         <meta expr:content='data:blog.metaDescription' itemprop='description'/>
@@ -393,8 +394,9 @@
                                                                             <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
                                                                         </b:if>
                                                                         <data:post.cmtfpIframe/>
-                                                                        <script type='text/javascript'>
-                                                                            BLOG_CMT_createIframe( & #39; < data:post.appRpcRelayPath / > & #39; );</script>
+                                                                        &lt;script type='text/javascript'&gt;
+                                                                            BLOG_CMT_createIframe<data:post.appRpcRelayPath/>);
+                                                                        &lt;/script&gt;
                                                                     </div>
                                                                 </b:includable>
                                                                 <b:includable id='commentDeleteIcon' var='comment'>
@@ -958,184 +960,15 @@
                                                                             <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
                                                                         </b:if>
                                                                         <data:post.cmtfpIframe/>
-                                                                        <script type='text/javascript'>
-                                                                                    BLOG_CMT_createIframe( & #39; < data:post.appRpcRelayPath / > & #39; );</script>
+                                                                        &lt;script type='text/javascript'&gt;
+                                                                                    BLOG_CMT_createIframe(<data:post.appRpcRelayPath/>);
+                                                                        &lt;/script&gt;
                                                                     </div>
                                                                 </b:includable>
                                                                 <b:includable id='threaded_comment_js' var='post'>
                                                                     <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
 
-                                                                    <script type='text/javascript'>
-                                                                                (function() {
-                                                                                var items = < data:post.commentJso / > ;
-                                                                                        var msgs = < data:post.commentMsgs / > ;
-                                                                                        var config = < data:post.commentConfig / > ;
-                                                                                        // <![CDATA[
-                                                                                        var cursor = null;
-                                                                                        if (items && items.length > 0) {
-                                                                                cursor = parseInt(items[items.length - 1].timestamp) + 1;
-                                                                                }
 
-                                                                                var bodyFromEntry = function(entry) {
-                                                                                if (entry.gd$extendedProperty) {
-                                                                                for (var k in entry.gd$extendedProperty) {
-                                                                                if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
-                                                                                return '<span class="deleted-comment">' + entry.content.$t + '</span>';
-                                                                                }
-                                                                                }
-                                                                                }
-                                                                                return entry.content.$t;
-                                                                                }
-
-                                                                                var parse = function(data) {
-                                                                                cursor = null;
-                                                                                        var comments = [];
-                                                                                        if (data && data.feed && data.feed.entry) {
-                                                                                for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
-                                                                                var comment = {};
-                                                                                        // comment ID, parsed out of the original id format
-                                                                                        var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
-                                                                                        comment.id = id ? id[2] : null;
-                                                                                        comment.body = bodyFromEntry(entry);
-                                                                                        comment.timestamp = Date.parse(entry.published.$t) + '';
-                                                                                        if (entry.author && entry.author.constructor === Array) {
-                                                                                var auth = entry.author[0];
-                                                                                        if (auth) {
-                                                                                comment.author = {
-                                                                                name: (auth.name ? auth.name.$t : undefined),
-                                                                                        profileUrl: (auth.uri ? auth.uri.$t : undefined),
-                                                                                        avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
-                                                                                };
-                                                                                }
-                                                                                }
-                                                                                if (entry.link) {
-                                                                                if (entry.link[2]) {
-                                                                                comment.link = comment.permalink = entry.link[2].href;
-                                                                                }
-                                                                                if (entry.link[3]) {
-                                                                                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
-                                                                                        if (pid && pid[1]) {
-                                                                                comment.parentId = pid[1];
-                                                                                }
-                                                                                }
-                                                                                }
-                                                                                comment.deleteclass = 'item-control blog-admin';
-                                                                                        if (entry.gd$extendedProperty) {
-                                                                                for (var k in entry.gd$extendedProperty) {
-                                                                                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
-                                                                                comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
-                                                                                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
-                                                                                comment.displayTime = entry.gd$extendedProperty[k].value;
-                                                                                }
-                                                                                }
-                                                                                }
-                                                                                comments.push(comment);
-                                                                                }
-                                                                                }
-                                                                                return comments;
-                                                                                };
-                                                                                        var paginator = function(callback) {
-                                                                                        if (hasMore()) {
-                                                                                        var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
-                                                                                                if (cursor) {
-                                                                                        url += '&published-min=' + new Date(cursor).toISOString();
-                                                                                        }
-                                                                                        window.bloggercomments = function(data) {
-                                                                                        var parsed = parse(data);
-                                                                                                cursor = parsed.length < 50 ? null
-                                                                                                : parseInt(parsed[parsed.length - 1].timestamp) + 1
-                                                                                                callback(parsed);
-                                                                                                window.bloggercomments = null;
-                                                                                        }
-                                                                                        url += '&callback=bloggercomments';
-                                                                                                var script = document.createElement('script');
-                                                                                                script.type = 'text/javascript';
-                                                                                                script.src = url;
-                                                                                                document.getElementsByTagName('head')[0].appendChild(script);
-                                                                                        }
-                                                                                        };
-                                                                                        var hasMore = function() {
-                                                                                        return !!cursor;
-                                                                                        };
-                                                                                        var getMeta = function(key, comment) {
-                                                                                        if ('iswriter' == key) {
-                                                                                        var matches = !!comment.author
-                                                                                                && comment.author.name == config.authorName
-                                                                                                && comment.author.profileUrl == config.authorUrl;
-                                                                                                return matches ? 'true' : '';
-                                                                                        } else if ('deletelink' == key) {
-                                                                                        return config.baseUri + '/delete-comment.g?blogID='
-                                                                                                + config.blogId + '&postID=' + comment.id;
-                                                                                        } else if ('deleteclass' == key) {
-                                                                                        return comment.deleteclass;
-                                                                                        }
-                                                                                        return '';
-                                                                                        };
-                                                                                        var replybox = null;
-                                                                                        var replyUrlParts = null;
-                                                                                        var replyParent = undefined;
-                                                                                        var onReply = function(commentId, domId) {
-                                                                                        if (replybox == null) {
-                                                                                        // lazily cache replybox, and adjust to suit this style:
-                                                                                        replybox = document.getElementById('comment-editor');
-                                                                                                if (replybox != null) {
-                                                                                        replybox.height = '250px';
-                                                                                                replybox.style.display = 'block';
-                                                                                                replyUrlParts = replybox.src.split('#');
-                                                                                        }
-                                                                                        }
-                                                                                        if (replybox && (commentId !== replyParent)) {
-                                                                                        replybox.src = '';
-                                                                                                document.getElementById(domId).insertBefore(replybox, null);
-                                                                                                replybox.src = replyUrlParts[0]
-                                                                                                + (commentId ? '&parentID=' + commentId : '')
-                                                                                                + '#' + replyUrlParts[1];
-                                                                                                replyParent = commentId;
-                                                                                        }
-                                                                                        };
-                                                                                        var hash = (window.location.hash || '#').substring(1);
-                                                                                        var startThread, targetComment;
-                                                                                        if (/^comment-form_/.test(hash)) {
-                                                                                startThread = hash.substring('comment-form_'.length);
-                                                                                } else if (/^c[0-9]+$/.test(hash)) {
-                                                                                targetComment = hash.substring(1);
-                                                                                }
-
-                                                                                // Configure commenting API:
-                                                                                var configJso = {
-                                                                                'maxDepth': config.maxThreadDepth
-                                                                                };
-                                                                                        var provider = {
-                                                                                        'id': config.postId,
-                                                                                                'data': items,
-                                                                                                'loadNext': paginator,
-                                                                                                'hasMore': hasMore,
-                                                                                                'getMeta': getMeta,
-                                                                                                'onReply': onReply,
-                                                                                                'rendered': true,
-                                                                                                'initComment': targetComment,
-                                                                                                'initReplyThread': startThread,
-                                                                                                'config': configJso,
-                                                                                                'messages': msgs
-                                                                                        };
-                                                                                        var render = function() {
-                                                                                        if (window.goog && window.goog.comments) {
-                                                                                        var holder = document.getElementById('comment-holder');
-                                                                                                window.goog.comments.render(holder, provider);
-                                                                                        }
-                                                                                        };
-                                                                                        // render now, or queue to render when library loads:
-                                                                                        if (window.goog && window.goog.comments) {
-                                                                                render();
-                                                                                } else {
-                                                                                window.goog = window.goog || {};
-                                                                                        window.goog.comments = window.goog.comments || {};
-                                                                                        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
-                                                                                        window.goog.comments.loadQueue.push(render);
-                                                                                }
-                                                                                })();
-                                                                                // ]]>
-                                                                    </script>
                                                                 </b:includable>
                                                                 <b:includable id='threaded_comments' var='post'>
                                                                     <div class='comments' id='comments'>
@@ -1269,14 +1102,7 @@
                         <div class='cap-right'/>
                     </div>
                 </div>
-            </div>
-
-            <script type='text/javascript'>
-                        window.setTimeout(function() {
-                        document.body.className = document.body.className.replace( & #39; loading & #39; , & #39; & #39; );
-                        }, 10);</script>
-
-
+            </div>            
             <macro:includable id='sections' var='col'>
                 <macro:if cond='data:col.num == 0'>
                     <macro:else/>
@@ -1315,135 +1141,325 @@
                     </macro:if>
                 </macro:if>
             </macro:includable>
-
-
-
         </div>
 
-        <script src='https://avdsmartsensor.github.io/page/bower_components/jquery/dist/jquery.min.js'/>
-        <script>
-                        $(
-                                function(){
-                                setInterval(
-                                        function(){
-                                        console.log( & quot; hola mundo & quot; );
-                                        }, 5000
-                                        );
-                                }
-                        );
-        </script>
-    </body>
-    <b:section-contents id='sidebar-right-1'>
-        <b:widget id='Profile1' locked='false' title='Acerca de mí' type='Profile' visible='true'>
-            <b:includable id='main'>
-                <b:if cond='data:title != &quot;&quot;'>
-                    <h2><data:title/></h2>
-                </b:if>
-                <div class='widget-content'>
-                    <b:if cond='data:team'> <!-- team blog profile -->
-                        <ul>
-                            <b:loop values='data:authors' var='i'>
-                                <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
-                            </b:loop>
-                        </ul>
+        <b:section-contents id='sidebar-right-1'>
+            <b:widget id='Profile1' locked='false' title='Acerca de mí' type='Profile' visible='true'>
+                <b:includable id='main'>
+                    <b:if cond='data:title != &quot;&quot;'>
+                        <h2><data:title/></h2>
+                    </b:if>
+                    <div class='widget-content'>
+                        <b:if cond='data:team'> <!-- team blog profile -->
+                            <ul>
+                                <b:loop values='data:authors' var='i'>
+                                    <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
+                                </b:loop>
+                            </ul>
 
-                        <b:else/> <!-- normal blog profile -->
+                            <b:else/> <!-- normal blog profile -->
 
-                        <b:if cond='data:photo.url != &quot;&quot;'>
-                            <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
-                        </b:if>
-
-                        <dl class='profile-datablock'>
-                            <dt class='profile-data'>
-                                <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
-                                    <data:displayname/>
-                                </a>
-                                <b:if cond='data:hasgoogleprofile'>
-                                    <br/>
-                                    <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
-                                </b:if>
-                            </dt>
-
-                            <b:if cond='data:showlocation'>
-                                <dd class='profile-data'><data:location/></dd>
+                            <b:if cond='data:photo.url != &quot;&quot;'>
+                                <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
                             </b:if>
 
-                            <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
-                        </dl>
-                        <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
-                    </b:if>
+                            <dl class='profile-datablock'>
+                                <dt class='profile-data'>
+                                    <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
+                                        <data:displayname/>
+                                    </a>
+                                    <b:if cond='data:hasgoogleprofile'>
+                                        <br/>
+                                        <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
+                                    </b:if>
+                                </dt>
 
-                    <b:include name='quickedit'/>
-                </div>
-            </b:includable>
-        </b:widget>
-        <b:widget id='BlogArchive1' locked='false' title='Archivo del Blog' type='BlogArchive' visible='true'>
-            <b:includable id='main'>
-                <b:if cond='data:title != &quot;&quot;'>
-                    <h2><data:title/></h2>
-                </b:if>
-                <div class='widget-content'>
-                    <div id='ArchiveList'>
-                        <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
-                            <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
-                            <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
-                            <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
-                        </div>
-                    </div>
-                    <b:include name='quickedit'/>
-                </div>
-            </b:includable>
-            <b:includable id='flat' var='data'>
-                <ul class='flat'>
-                    <b:loop values='data:data' var='i'>
-                        <li class='archivedate'>
-                            <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
-                        </li>
-                    </b:loop>
-                </ul>
-            </b:includable>
-            <b:includable id='interval' var='intervalData'>
-                <b:loop values='data:intervalData' var='interval'>
-                    <ul class='hierarchy'>
-                        <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
-                            <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
-                            <a class='post-count-link' expr:href='data:interval.url'>
-                                <data:interval.name/>
-                            </a>
-                            <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
-                            <b:include cond='data:interval.data' data='interval.data' name='interval'/>
-                            <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
-                        </li>
-                    </ul>
-                </b:loop>
-            </b:includable>
-            <b:includable id='menu' var='data'>
-                <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
-                    <option value=''><data:title/></option>
-                    <b:loop values='data:data' var='i'>
-                        <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
-                    </b:loop>
-                </select>
-            </b:includable>
-            <b:includable id='posts' var='posts'>
-                <ul class='posts'>
-                    <b:loop values='data:posts' var='post'>
-                        <li><a expr:href='data:post.url'><data:post.title/></a></li>
-                    </b:loop>
-                </ul>
-            </b:includable>
-            <b:includable id='toggle' var='interval'>
-                <a class='toggle' href='javascript:void(0)'>
-                    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
-                        <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
-                            &#9660;&#160;
-                            <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
-                            &#9668;&#160;
-                            <b:else/>
-                            &#9658;&#160;
+                                <b:if cond='data:showlocation'>
+                                    <dd class='profile-data'><data:location/></dd>
+                                </b:if>
+
+                                <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
+                            </dl>
+                            <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
                         </b:if>
-                    </span>
-                </a>
-            </b:includable>
-        </b:widget>
-    </b:section-contents><b:section-contents id='footer-1'/><b:section-contents id='footer-2-1'/><b:section-contents id='footer-2-2'/></html>
+
+                        <b:include name='quickedit'/>
+                    </div>
+                </b:includable>
+            </b:widget>
+            <b:widget id='BlogArchive1' locked='false' title='Archivo del Blog' type='BlogArchive' visible='true'>
+                <b:includable id='main'>
+                    <b:if cond='data:title != &quot;&quot;'>
+                        <h2><data:title/></h2>
+                    </b:if>
+                    <div class='widget-content'>
+                        <div id='ArchiveList'>
+                            <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+                                <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
+                                <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
+                                <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
+                            </div>
+                        </div>
+                        <b:include name='quickedit'/>
+                    </div>
+                </b:includable>
+                <b:includable id='flat' var='data'>
+                    <ul class='flat'>
+                        <b:loop values='data:data' var='i'>
+                            <li class='archivedate'>
+                                <a expr:href='data:i.url'>
+                                    <data:i.name/>
+                                </a> 
+                                (<data:i.post-count/>)
+                            </li>
+                        </b:loop>
+                    </ul>
+                </b:includable>
+                <b:includable id='interval' var='intervalData'>
+                    <b:loop values='data:intervalData' var='interval'>
+                        <ul class='hierarchy'>
+                            <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
+                                <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
+                                <a class='post-count-link' expr:href='data:interval.url'>
+                                    <data:interval.name/>
+                                </a>
+                                <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
+                                <b:include cond='data:interval.data' data='interval.data' name='interval'/>
+                                <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
+                            </li>
+                        </ul>
+                    </b:loop>
+                </b:includable>
+                <b:includable id='menu' var='data'>
+                    <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+                        <option value=''>
+                            <data:title/>
+                        </option>
+                        <b:loop values='data:data' var='i'>
+                            <option expr:value='data:i.url'>
+                                <data:i.name/> 
+                                (<data:i.post-count/>)
+                            </option>
+                        </b:loop>
+                    </select>
+                </b:includable>
+                <b:includable id='posts' var='posts'>
+                    <ul class='posts'>
+                        <b:loop values='data:posts' var='post'>
+                            <li>
+                                <a expr:href='data:post.url'>
+                                    <data:post.title/>
+                                </a>
+                            </li>
+                        </b:loop>
+                    </ul>
+                </b:includable>
+                <b:includable id='toggle' var='interval'>
+                    <a class='toggle' href='javascript:void(0)'>
+                        <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+                            <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+                                &#9660;&#160;
+                                <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+                                &#9668;&#160;
+                                <b:else/>
+                                &#9658;&#160;
+                            </b:if>
+                        </span>
+                    </a>
+                </b:includable>
+            </b:widget>
+        </b:section-contents>
+        <b:section-contents id='footer-1'></b:section-contents>
+        <b:section-contents id='footer-2-1'></b:section-contents>
+        <b:section-contents id='footer-2-2'></b:section-contents>
+
+        <script src='https://avdsmartsensor.github.io/page/bower_components/jquery/dist/jquery.min.js'/>
+        <script type='text/javascript'>
+                                                                                            $(
+                                                                                                    function(){
+                                                                                                    
+                                                                                                            window.setTimeout(
+                                                                                                                    function() {
+                                                                                                                    document.body.className = document.body.className.replace( 'loading','');
+                                                                                                                    },
+                                                                                                                    10
+                                                                                                                    );
+                                                                                                    }
+
+                                                                                            );</script>
+
+        <script type='text/javascript'>
+// <![CDATA[            
+                    (function() {
+                            var items = '<data:post.commentJso/>' ;
+                            var msgs = '<data:post.commentMsgs/>';
+                            var config = '<data:post.commentConfig/>';
+                            
+                            var cursor = null;
+                            if (items && items.length > 0) {
+                                cursor = parseInt(items[items.length - 1].timestamp) + 1;
+                            }
+
+                    var bodyFromEntry = function(entry) {
+                    if (entry.gd$extendedProperty) {
+                    for (var k in entry.gd$extendedProperty) {
+                    if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+                    return '<span class="deleted-comment">' + entry.content.$t + '</span>';
+                    }
+                    }
+                    }
+                    return entry.content.$t;
+                    }
+
+                    var parse = function(data) {
+                    cursor = null;
+                            var comments = [];
+                            if (data && data.feed && data.feed.entry) {
+                    for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+                    var comment = {};
+                            // comment ID, parsed out of the original id format
+                            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+                            comment.id = id ? id[2] : null;
+                            comment.body = bodyFromEntry(entry);
+                            comment.timestamp = Date.parse(entry.published.$t) + '';
+                            if (entry.author && entry.author.constructor === Array) {
+                    var auth = entry.author[0];
+                            if (auth) {
+                    comment.author = {
+                    name: (auth.name ? auth.name.$t : undefined),
+                            profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                            avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                    };
+                    }
+                    }
+                    if (entry.link) {
+                    if (entry.link[2]) {
+                    comment.link = comment.permalink = entry.link[2].href;
+                    }
+                    if (entry.link[3]) {
+                    var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                            if (pid && pid[1]) {
+                    comment.parentId = pid[1];
+                    }
+                    }
+                    }
+                    comment.deleteclass = 'item-control blog-admin';
+                            if (entry.gd$extendedProperty) {
+                    for (var k in entry.gd$extendedProperty) {
+                    if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                    comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                    } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                    comment.displayTime = entry.gd$extendedProperty[k].value;
+                    }
+                    }
+                    }
+                    comments.push(comment);
+                    }
+                    }
+                    return comments;
+                    };
+                            var paginator = function(callback) {
+                            if (hasMore()) {
+                            var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+                                    if (cursor) {
+                            url += '&published-min=' + new Date(cursor).toISOString();
+                            }
+                            window.bloggercomments = function(data) {
+                            var parsed = parse(data);
+                                    cursor = parsed.length < 50 ? null
+                                    : parseInt(parsed[parsed.length - 1].timestamp) + 1
+                                    callback(parsed);
+                                    window.bloggercomments = null;
+                            }
+                            url += '&callback=bloggercomments';
+                                    var script = document.createElement('script');
+                                    script.type = 'text/javascript';
+                                    script.src = url;
+                                    document.getElementsByTagName('head')[0].appendChild(script);
+                            }
+                            };
+                            var hasMore = function() {
+                            return !!cursor;
+                            };
+                            var getMeta = function(key, comment) {
+                            if ('iswriter' == key) {
+                            var matches = !!comment.author
+                                    && comment.author.name == config.authorName
+                                    && comment.author.profileUrl == config.authorUrl;
+                                    return matches ? 'true' : '';
+                            } else if ('deletelink' == key) {
+                            return config.baseUri + '/delete-comment.g?blogID='
+                                    + config.blogId + '&postID=' + comment.id;
+                            } else if ('deleteclass' == key) {
+                            return comment.deleteclass;
+                            }
+                            return '';
+                            };
+                            var replybox = null;
+                            var replyUrlParts = null;
+                            var replyParent = undefined;
+                            var onReply = function(commentId, domId) {
+                            if (replybox == null) {
+                            // lazily cache replybox, and adjust to suit this style:
+                            replybox = document.getElementById('comment-editor');
+                                    if (replybox != null) {
+                            replybox.height = '250px';
+                                    replybox.style.display = 'block';
+                                    replyUrlParts = replybox.src.split('#');
+                            }
+                            }
+                            if (replybox && (commentId !== replyParent)) {
+                            replybox.src = '';
+                                    document.getElementById(domId).insertBefore(replybox, null);
+                                    replybox.src = replyUrlParts[0]
+                                    + (commentId ? '&parentID=' + commentId : '')
+                                    + '#' + replyUrlParts[1];
+                                    replyParent = commentId;
+                            }
+                            };
+                            var hash = (window.location.hash || '#').substring(1);
+                            var startThread, targetComment;
+                            if (/^comment-form_/.test(hash)) {
+                    startThread = hash.substring('comment-form_'.length);
+                    } else if (/^c[0-9]+$/.test(hash)) {
+                    targetComment = hash.substring(1);
+                    }
+
+                    // Configure commenting API:
+                    var configJso = {
+                    'maxDepth': config.maxThreadDepth
+                    };
+                            var provider = {
+                            'id': config.postId,
+                                    'data': items,
+                                    'loadNext': paginator,
+                                    'hasMore': hasMore,
+                                    'getMeta': getMeta,
+                                    'onReply': onReply,
+                                    'rendered': true,
+                                    'initComment': targetComment,
+                                    'initReplyThread': startThread,
+                                    'config': configJso,
+                                    'messages': msgs
+                            };
+                            var render = function() {
+                            if (window.goog && window.goog.comments) {
+                            var holder = document.getElementById('comment-holder');
+                                    window.goog.comments.render(holder, provider);
+                            }
+                            };
+                            // render now, or queue to render when library loads:
+                            if (window.goog && window.goog.comments) {
+                    render();
+                    } else {
+                    window.goog = window.goog || {};
+                            window.goog.comments = window.goog.comments || {};
+                            window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+                            window.goog.comments.loadQueue.push(render);
+                    }
+                    })();
+                    // ]]>
+        </script>        
+    </body>
+
+</html>
