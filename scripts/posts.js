@@ -7,7 +7,7 @@
 
 $(
     function(){
-        var url = '/feeds/posts/default/?max-results='+numposts1+'&amp;orderby=published&amp;alt=json-in-script&amp;callback=blogpost';
+        var url = '/feeds/posts/default/?max-results='+numposts1+'&orderby=published&alt=json-in-script&callback=blogpost';
         $.get(
             url,
             function(data){
