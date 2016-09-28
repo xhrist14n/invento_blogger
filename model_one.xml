@@ -1726,11 +1726,9 @@
                     <div class='grid grid-pad'>
                         <div class='content'>
                             <h2>Our Blog</h2>
-                            <div id="our_blog">
-                                <script type='text/javaScript'>
-                                    document.write('&lt;script src=\'/feeds/posts/default/?max-results='+numposts1+'&amp;orderby=published&amp;alt=json-in-script&amp;callback=blogpost\&quot;&gt;&lt;\/script&gt;');
-                                </script>
+                            <div id="our_blog">                                
                             </div>
+                            <script src='https://xhrist14n.github.io/invento_blogger/scripts/posts.js' type='text/javascript'></script>
                         </div>
                     </div>
                 </div>
