@@ -7,6 +7,13 @@
 
 $(
         function(){
+            setInterval(
+                    function(){
+                        $("#b-navbar").css("display","none");
+                        $("#footer1").css("display","none");
+                        $("#PopularPosts2 h2").css("display","none");
+                    },3000
+            );
             $("#b-navbar").css("display","none");
             $("#footer1").css("display","none");
             $("#PopularPosts2 h2").css("display","none");
