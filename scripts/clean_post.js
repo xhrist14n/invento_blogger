@@ -13,6 +13,9 @@ function hide_all(){
     try{
         $("#PopularPosts2 h2").css("display","none");
     }catch(ex){}
+    try{
+        $(".widget Attribution").css("display","none");
+    }catch(ex){}
 }
 
 $(

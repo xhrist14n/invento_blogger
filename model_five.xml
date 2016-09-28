@@ -209,7 +209,7 @@
                 </div>
                 <!--slider jsson-->
                 <div style="min-height: 50px;" >
-                    <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                    <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;top: 0px; left: 0px; width: 1300px; height: 700px; overflow: hidden;">
                       <div u="loading" style="position: absolute; top: 0px; left: 0px;">
                         <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;top: 0px; left: 0px; width: 100%; height: 100%;">
                         </div>
@@ -218,7 +218,7 @@
                       </div>
                     </div>
                     <!-- Slides Container -->
-                    <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                    <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 700px; overflow: hidden;">
                       <div>
                         <img u="image" src="https://xhrist14n.github.io/invento_blogger/images/slider/1.png" />
                         <div data-u="caption" data-t="4" class="caption-text">
