@@ -2342,7 +2342,7 @@
                 <script src="https://xhrist14n.github.io/invento_blogger/scripts/navigation_script.js"></script>
             </b:if>
         </b:if>
-        <script type="text/javascript" src="https://xhrist14n.github.io/invento_blogger/scripts/script_one.js"></script>
+        
         <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script src='http://blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5ZWg2bW5UeG4yQ3M'></script>
         <script src="https://xhrist14n.github.io/invento_blogger/scripts/parallax.js"></script>
@@ -2353,7 +2353,9 @@
         <script src='http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'></script>
         <script src='http://blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5Ul8xUTNBS0tnMGc'></script>
         <script src='http://blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5VEFlX0wwRlNfSkk'></script>
-        <script src="https://xhrist14n.github.io/invento_blogger/scripts/fuzzy_script.js"></script>
         <script src="https://xhrist14n.github.io/invento_blogger/scripts/clean_post.js"></script>
+        <script type="text/javascript" src="https://xhrist14n.github.io/invento_blogger/scripts/script_one.js"></script>
+        <script src="https://xhrist14n.github.io/invento_blogger/scripts/fuzzy_script.js"></script>
+        
     </body>
 </html>
