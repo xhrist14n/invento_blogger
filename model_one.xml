@@ -1726,7 +1726,23 @@
                     <div class='grid grid-pad'>
                         <div class='content'>
                             <h2>Our Blog</h2>
-                            <div id="our_blog">                                
+                            <div id="our_blog">      
+                                <table width='100%'>
+                                    <tr>
+                                        <td width='25%' class='one'>
+                                            
+                                        </td>
+                                        <td width='25%' class='two'>
+                                            
+                                        </td>
+                                        <td width='25%' class='three'>
+                                            
+                                        </td>
+                                        <td width='25%' class='four'>
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
                             <script src='https://xhrist14n.github.io/invento_blogger/scripts/posts.js' type='text/javascript'></script>
                         </div>
