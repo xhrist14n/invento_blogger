@@ -14,7 +14,7 @@ function hide_all(){
         $("#PopularPosts2 h2").css("display","none");
     }catch(ex){}
     try{
-        $(".widget Attribution").css("display","none");
+        $("#contact .widget .Attribution").css("display","none");
     }catch(ex){}
 }
 
