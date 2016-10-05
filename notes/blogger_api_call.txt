@@ -1,2 +1,28 @@
-https://www.blogger.com/feeds/blogID/posts/default   all posts
+/feeds/blogID/posts/default   -> all posts
+
+
+/feeds/posts/default/?max-results=4&orderby=published&alt=json -> all posts json
+
+
+https://www.googleapis.com/blogger/v2/blogs/blogId/posts/postId
+
+https://www.googleapis.com/blogger/v2/blogs/8327438333846220076/posts/7678826957821159173
+
+https://layout-pruebas.blogspot.pe/feeds/posts/blog-8327438333846220076.post-7678826957821159173?alt=json
+
+"tag:blogger.com,1999:blog-8327438333846220076.post-7678826957821159173"
+
+
+user:
+
+111891601140-hj4c87g8hclcoa7rhai1b0a4h7av5oe7.apps.googleusercontent.com 
+
+secret :  a-XG0ubb1O73wR2HNlaITyGW 
+
+api key:  AIzaSyBpPpeq0vcSZpD4c2dO8FwwIe6LUpEi4HY 
+
+
+https://www.googleapis.com/blogger/v3/blogs/7594995116968158119/pages?key=AIzaSyBpPpeq0vcSZpD4c2dO8FwwIe6LUpEi4HY
+
+
 
