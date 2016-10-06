@@ -152,23 +152,34 @@
                             <label for='nav-button' onclick=''/>
                             <ul class='nav-container'>
                                 <!-- Top Menu -->
-                                <li class='current'>
-                                    <a href='#home'>Home</a>
+                                <li class='current' style="font-size:14px;">
+                                    <a href='#home'>
+                                        Home
+                                    </a>
                                 </li>
-                                <li>
-                                    <a href='#services'>Services</a>
+                                <li  style="font-size:14px;">
+                                    <a href='#services'>
+                                        Services
+                                    </a>
                                 </li>
-                                <li>
-                                    <a href='#work'>Work</a>
+                                <li  style="font-size:14px;">
+                                    <a href='#work'>
+                                        Work
+                                    </a>
                                 </li>
-                                <li>
-                                    <a href='#blog'>Blog</a>
+                                <li  style="font-size:14px;">
+                                    <a href='#blog'>
+                                        Blog
+                                    </a>
                                 </li>
-                                <li>
-                                    <a href='#team'>Team</a>
+                                <li  style="font-size:14px;">
+                                    <a href='#team'>
+                                        Team
+                                    </a>
                                 </li>
-                                <li>
-                                    <a href='#contact'>Contact</a>
+                                <li  style="font-size:14px;">
+                                    <a href='#contact'>
+                                        Contact</a>
                                 </li>
                                 
                                 <!-- Top Menu/End -->
@@ -2464,7 +2475,18 @@
                                 <i class='fa fa-instagram'/>
                             </a>
                         </div>
-                        <p class='source-org copyright'>Copyright 2015 <data:blog.title/> | Designed By <a href='http://www.templateclue.com' id='templateclue' title='Free Blogger Templates'>Free Blogger Templates</a></p>
+                        <p class='source-org copyright' style="display:none;">
+                            Copyright 2015 <data:blog.title/> | Designed By 
+                            <a href='http://www.templateclue.com' id='templateclue' title='Free Blogger Templates'>
+                                Free Blogger Templates
+                            </a>
+                        </p>
+                        <p class='source-org copyright'>
+                            Copyright 2016 - 
+                            <a href='http://www.christianportilla.com'>
+                                Xhrist14n
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
