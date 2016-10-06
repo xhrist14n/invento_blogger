@@ -143,7 +143,7 @@ Buttons
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    background:#1abc9c;
+    background: rgb(254,204,177);
 }
 
 .btn:hover, .btn:focus, .btn-current {
@@ -268,12 +268,12 @@ Buttons
 
 .btn-ghost:hover {
     border-color: transparent;
-    background-color:#1abc9c;
+    background-color: rgb(254,204,177);
 }
 
 .btn-ghost-dark {
-    border-color: #1abc9c;
-    color: #1abc9c;
+    border-color: rgb(254,204,177);
+    color: rgb(254,204,177);
 }
 
 /*****************************************
@@ -486,7 +486,7 @@ blockquote{
     margin: 2em 0;
     padding: 2.3em 1.5em;
     background: #f9f9f9;
-    border-left: 15px solid #1ABC9C;
+    border-left: 15px solid rgb(254,204,177);
     border-radius: 0;
     box-shadow: 11px 10px 0px #ECECEC;
 }
@@ -638,7 +638,7 @@ Navigation
 }
 
 .navigation .current a, .navigation ul li a:hover, .navigation ul li a:focus {
-    color:#1abc9c;
+    color: rgb(254,204,177);
 }
 
 .navigation .sub-menu {
@@ -655,7 +655,7 @@ Navigation
     -o-transition: all .1s linear;
     transition: all .1s linear;
     opacity: 0;
-    border-top: 1px solid#1abc9c;
+    border-top: 1px solid rgb(254,204,177);
     background: #fff;
     /*box-shadow*/
     -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
@@ -819,7 +819,7 @@ Info Counter
 
 .info-counter-icon {
     font-size: 4em;
-    color: #1abc9c;
+    color: rgb(254,204,177);
 }
 
 .info-counter-content, .info-counter-content h5 {
@@ -840,12 +840,11 @@ Blog Post CSS
 
 .recent-work {
     background: #6578bc; /* Old browsers */
-    background: -moz-linear-gradient(left,  #6578bc 0%, #1abc9c 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6578bc), color-stop(100%,#1abc9c)); /* Chrome,Safari4+ */
+    background: -moz-linear-gradient(left,  #6578bc 0%, rgb(254,204,177) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6578bc), color-stop(100%,rgb(254,204,177))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* IE10+ */
-    background: linear-gradient(to right,  #6578bc 0%,#1abc9c 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#6578bc", endColorstr="#1abc9c",GradientType=1 ); /* IE6-9 */
 
     position: relative;
@@ -886,8 +885,8 @@ Blog Post CSS
 
 .filters .filter.active,
 .filters .filter:hover {
-    border: 2px solid #1abc9c;
-    color: #1abc9c;
+    border: 2px solid rgb(254,204,177);
+    color: rgb(254,204,177);
 }
 
 .recent-work a {
@@ -1039,7 +1038,7 @@ h2#title2 {
 }
 
 .post-wrap .post-meta i {
-    color:#1abc9c;
+    color: rgb(254,204,177);
 }
 
 .post-wrap .post {
@@ -1062,7 +1061,7 @@ h2#title2 {
 }
 
 .post-wrap .post p a:hover {
-    background: #1abc9c;
+    background: rgb(254,204,177);
     color: #fff;
 }
 
@@ -1118,12 +1117,12 @@ h2#title2 {
 }
 .showpageNum a:hover{
     text-decoration: none;
-    background-color: #1ABC9C;
+    background-color: rgb(254,204,177);
     color: #fff;
-    border: 1px solid #1ABC9C;
+    border: 1px solid rgb(254,204,177);
 }
 .showpagePoint{
-    background-color: #1ABC9C;
+    background-color: rgb(254,204,177);
     color: #FFF;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -1311,7 +1310,7 @@ Label CSS
 }
 .cloud-label-widget-content span a:hover {
     color: #fff !important;
-    background-color: #1ABC9C;
+    background-color: rgb(254,204,177);
 }
 .label-size-1,
 .label-size-2 {
@@ -1396,7 +1395,7 @@ Label CSS
     font-size: 11px;
     font-family: inherit;
     color: #fff;
-    background-color: #1ABC9C;
+    background-color: rgb(254,204,177);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -2585,7 +2584,7 @@ input:not([type=submit]):not([type=file]), textarea {
 }
 
 input:not([type=submit]):not([type=file]):focus, textarea:focus {
-    border-color:#1abc9c;
+    border-color: rgb(254,204,177);
     outline: none;
 }
 
