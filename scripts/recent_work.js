@@ -7,12 +7,12 @@
 
 $(
         function () {
-            var wrap = $(".recent-work").find(".overlay .img-wrap");
+            var posts = $("#Blog1").find(".post-body");
             $.each(
-                    wrap,
+                    posts,
                     function (index, item) {
                         console.log("texto :"+$(this).html());
-                        $(this).css("margin-top", "200px");
+                        $($(this).find(".overlay")).css("margin-top", "200px");
                     }
             );
         }
