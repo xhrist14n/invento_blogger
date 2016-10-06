@@ -152,32 +152,32 @@
                             <label for='nav-button' onclick=''/>
                             <ul class='nav-container'>
                                 <!-- Top Menu -->
-                                <li class='current' style="font-size:14px;">
+                                <li class='current' style="font-size:16px;">
                                     <a href='#home'>
                                         Home
                                     </a>
                                 </li>
-                                <li  style="font-size:14px;">
+                                <li  style="font-size:16px;">
                                     <a href='#services'>
                                         Services
                                     </a>
                                 </li>
-                                <li  style="font-size:14px;">
+                                <li  style="font-size:16px;">
                                     <a href='#work'>
                                         Work
                                     </a>
                                 </li>
-                                <li  style="font-size:14px;">
+                                <li  style="font-size:16px;">
                                     <a href='#blog'>
                                         Blog
                                     </a>
                                 </li>
-                                <li  style="font-size:14px;">
+                                <li  style="font-size:16px;">
                                     <a href='#team'>
                                         Team
                                     </a>
                                 </li>
-                                <li  style="font-size:14px;">
+                                <li  style="font-size:16px;">
                                     <a href='#contact'>
                                         Contact</a>
                                 </li>
