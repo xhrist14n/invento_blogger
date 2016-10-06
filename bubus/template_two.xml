@@ -286,6 +286,7 @@
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
                 <!-- OUR SERVICES -->
+                
                 <div class='wrap services-wrap' id='services'>
                     <section class='grid grid-pad services'>
                         <h2>Our Services</h2>
@@ -1565,6 +1566,38 @@
         </div>
         
 
+        
+
+        <div class='wrap blog-grid grey' id='blog' style='padding-top:0px;'>
+            <div class='grid grid-pad'>
+                <div class='content'>
+                    <h2>Our Blog</h2>
+                    <div id="our_blog">      
+                        <table width='100%'>
+                            <tr>
+                                <td width='25%' class='one'>
+
+                                </td>
+                                <td width='25%' class='two'>
+
+                                </td>
+                                <td width='25%' class='three'>
+
+                                </td>
+                                <td width='25%' class='four'>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <script src='https://xhrist14n.github.io/invento_blogger/scripts/posts.js' type='text/javascript'></script>
+                </div>
+            </div>
+        </div>
+        <!-- CurveDown -->
+        <svg class='curveDownColor' height='100' preserveAspectRatio='none' style=' fill: #ECF0F1;stroke: #ECF0F1;' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+            <path d='M0 0 C 50 100 80 100 100 0 Z'/>
+        </svg>                                            
  
         <svg class='curveUpColor secondcurveUpColor' height='100' preserveAspectRatio='none' style=' fill: #ECF0F1; stroke: #ECF0F1; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);margin:0;' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
             <path d='M0 100 C 20 0 50 0 100 100 Z'/>

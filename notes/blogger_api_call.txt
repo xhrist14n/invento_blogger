@@ -26,3 +26,20 @@ https://www.googleapis.com/blogger/v3/blogs/7594995116968158119/pages?key=AIzaSy
 
 
 
+https://www.googleapis.com/blogger/v3/users/userId
+https://www.googleapis.com/blogger/v3/users/self
+https://www.googleapis.com/blogger/v3/users/userId/blogs
+https://www.googleapis.com/blogger/v3/users/self/blogs
+https://www.googleapis.com/blogger/v3/blogs/blogId
+https://www.googleapis.com/blogger/v3/blogs/byurl
+https://www.googleapis.com/blogger/v3/blogs/blogId/posts
+https://www.googleapis.com/blogger/v3/blogs/blogId/posts/bypath
+https://www.googleapis.com/blogger/v3/blogs/blogId/posts/search
+https://www.googleapis.com/blogger/v3/blogs/blogId/posts/postId
+https://www.googleapis.com/blogger/v3/blogs/blogId/posts/postId/comments
+https://www.googleapis.com/blogger/v3/blogs/blogId/posts/postId/comments/commentId
+https://www.googleapis.com/blogger/v3/blogs/blogId/pages
+https://www.googleapis.com/blogger/v3/blogs/blogId/pages/pageId
+
+humaniza id 
+7594995116968158119

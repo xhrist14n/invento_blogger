@@ -8,7 +8,7 @@
 
 $(
         function () {
-            var url = 'http://layout-pruebas.blogspot.pe/feeds/posts/default/?max-results=4&orderby=published&alt=json';
+            var url = 'http://humanizaconsultores.blogspot.pe/feeds/posts/default/?max-results=4&orderby=published&alt=json';
             $.getJSON(
                     url,
                     function (data) {
