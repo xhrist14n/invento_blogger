@@ -12,7 +12,7 @@ $(
                     posts,
                     function (index, item) {
                         var html = $($(this).find(".overlay")).html();
-                        $(this).html($(this).html()+html);
+                        $(this).html($(this).html()+'<div class="service-entry">'+html+'</div>');
                     }
             );
         }
