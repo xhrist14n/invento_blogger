@@ -15,11 +15,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 a {
-    color:#1abc9c;
+    color: rgb(251,149,94); /* Old browsers */
+    color: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
+    color: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
 }
 
 a:hover {
-    color: #16a085;
+    color: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,150,50,1) 41%, rgba(255,139,35,0.59) 65%, rgba(255,123,13,1) 100%); /* FF3.6-15 */
+    color: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,150,50,1) 41%,rgba(255,139,35,0.59) 65%,rgba(255,123,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
 }
 
 a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
@@ -145,7 +148,11 @@ Buttons
 
 .btn:hover, .btn:focus, .btn-current {
     color: #fff;
-    background: #16a085;
+    background: rgb(251,149,94); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb955e', endColorstr='#feccb1',GradientType=0 ); /* IE6-9 */
 }
 
 .btn:hover, .social-set a:hover, .team-social a i:hover, .header-carousel .owl-buttons .owl-prev:hover, .header-carousel .owl-buttons .owl-next:hover {
@@ -1353,7 +1360,10 @@ Label CSS
     font-weight: 500;
 }
 .PopularPosts ul li a:hover {
-    color: #16a085
+    color: rgb(251,149,94); /* Old browsers */
+    color: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
+    color: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    
 }
 .PopularPosts .item-title {
     margin: 0;
@@ -2491,7 +2501,9 @@ address i {
 }
 
 .box-icon i {
-    color: #16a085;
+    color: rgb(251,149,94); /* Old browsers */
+    color: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
+    color: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
     padding: 14px;
     background: #fff;
     border-radius: 250px
