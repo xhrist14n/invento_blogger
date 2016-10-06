@@ -1261,12 +1261,13 @@
                                             <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
 
                                             <script type='text/javascript'>
+ // <![CDATA[                                               
                                                 (function() {
                                                 var items = <data:post.commentJso/>;
                                                 var msgs = <data:post.commentMsgs/>;
                                                 var config = <data:post.commentConfig/>;
 
-                                                // <![CDATA[
+                                                
       var cursor = null;
       if (items && items.length > 0) {
         cursor = parseInt(items[items.length - 1].timestamp) + 1;
@@ -1740,6 +1741,8 @@
 
             </div>  
         </div>
+        
+        <script src='https://xhrist14n.github.io/invento_blogger/scripts/recent_work.js' type='text/javascript'></script>
 
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
@@ -1801,16 +1804,16 @@
                             <div id="our_blog">      
                                 <table width='100%'>
                                     <tr>
-                                        <td width='25%' class='one'>
+                                        <td width='25%' class='one' style="padding-left:10px;padding-right:10px;">
                                             
                                         </td>
-                                        <td width='25%' class='two'>
+                                        <td width='25%' class='two' style="padding-left:10px;padding-right:10px;">
                                             
                                         </td>
-                                        <td width='25%' class='three'>
+                                        <td width='25%' class='three' style="padding-left:10px;padding-right:10px;">
                                             
                                         </td>
-                                        <td width='25%' class='four'>
+                                        <td width='25%' class='four' style="padding-left:10px;padding-right:10px;">
                                             
                                         </td>
                                     </tr>
