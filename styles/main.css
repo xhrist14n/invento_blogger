@@ -1122,7 +1122,7 @@ h2#title2 {
     border: 1px solid rgb(254,204,177);
 }
 .showpagePoint{
-    background-color: #1ABC9C;
+    background-color: rgba(255,123,13,1);
     color: #FFF;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -1133,7 +1133,7 @@ h2#title2 {
     transition: all 0.2s ease 0s;
     margin: 5px 5px 0 0;
     padding: 8px 15px;
-    border: 1px solid #1FAB8F;
+    border: 1px solid rgba(255,123,13,1);
     font-size: 16px;
 }
 .showpageOf{
@@ -1283,7 +1283,7 @@ Label CSS
     text-transform: uppercase;
 }
 .list-label-widget-content li a:hover {
-    color:#1abc9c
+    color: rgba(255,123,13,1);
 }
 .list-label-widget-content li span:last-child {
     color: rgba(0, 0, 0, 0.31);
@@ -1310,7 +1310,7 @@ Label CSS
 }
 .cloud-label-widget-content span a:hover {
     color: #fff !important;
-    background-color: #1ABC9C;
+    background-color: rgba(255,123,13,1);
 }
 .label-size-1,
 .label-size-2 {
@@ -1395,7 +1395,7 @@ Label CSS
     font-size: 11px;
     font-family: inherit;
     color: #fff;
-    background-color: #1ABC9C;
+    background-color: rgba(255,123,13,1);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -1915,7 +1915,7 @@ Loader
     width: 150px;
 }
 .loader .bar {
-    background-color: #69C98C;
+    background-color: rgba(255,123,13,1);
     font-size: 0;
     height: 6px;
     border-radius: 3px;
@@ -1932,19 +1932,19 @@ Loader
     -webkit-animation-delay: 0s;
 }
 .loader .bar:nth-child(2) {
-    background-color: #1abc9c;
+    background-color: rgba(235,123,13,1);
     -webkit-animation-delay: .3s;
 }
 .loader .bar:nth-child(3) {
-    background-color: #1AB4BC;
+    background-color: rgba(245,121,13,1);
     -webkit-animation-delay: .6s;
 }
 .loader .bar:nth-child(4) {
-    background-color: #1AA1BC;
+    background-color: rgba(251,124,13,1);
     -webkit-animation-delay: .9s;
 }
 .loader .bar:nth-child(5) {
-    background-color: #1A7EBC;
+    background-color: rgba(249,123,12,1);
     -webkit-animation-delay: 1.2s;
 }
 
@@ -2001,8 +2001,8 @@ Clients Logos Section
 .cl-client-carousel.owl-theme .owl-controls .owl-page.active span,
 .cl-client-carousel.owl-theme .owl-controls.clickable .owl-page:hover span {
     border-color: transparent;
-    background-color:#1abc9c;
-    box-shadow: 0 0 0 3px #1abc9c;
+    background-color: rgba(255,123,13,1);
+    box-shadow: 0 0 0 3px rgba(255,123,13,1);
 }
 
 .header-carousel .owl-pagination, .header-carousel .owl-buttons {
@@ -2047,7 +2047,7 @@ Clients Logos Section
 Quotes Section 
 **********************************************************/
 .quotes-icon {
-    color: #1abc9c;
+    color: rgba(255,123,13,1);
     font-size: 4em;
     line-height: 1;
     margin-bottom: 27px;
@@ -2366,7 +2366,7 @@ Team CSS
 }
 
 .staff-info span {
-    color:#1abc9c;
+    color: rgba(255,123,13,1);
 }
 
 .staff-img {
@@ -2431,7 +2431,7 @@ Team CSS
 }
 
 .sl-tw i:hover {
-    color: #74c7d5;
+    color: rgba(255,101,13,1);
 }
 
 .sl-gp i:hover {
