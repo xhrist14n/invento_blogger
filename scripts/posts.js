@@ -22,7 +22,7 @@ function generate_html(data){
 
 $(
         function () {
-            var url = 'https://www.googleapis.com/blogger/v3/blogs/7594995116968158119/pages?key=AIzaSyBpPpeq0vcSZpD4c2dO8FwwIe6LUpEi4HY';
+            var url = 'https://www.googleapis.com/blogger/v3/blogs/7594995116968158119/blogs?key=AIzaSyBpPpeq0vcSZpD4c2dO8FwwIe6LUpEi4HY';
             $.getJSON(
                     url,
                     function (data) {
