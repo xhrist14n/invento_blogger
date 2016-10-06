@@ -4,36 +4,54 @@
  * and open the template in the editor.
  */
 
+function generate_html(data){
+    var html =  '<p>'+
+                '<a href="'+data['url']+'">'+
+                '<strong>'+
+                data['title']+
+                '</strong>'+
+                '</a>'+
+                '</p>'+
+                '<span>'+
+                data['content']+
+                '</span>';
+    
+    return html;
+}
 
 
 $(
         function () {
-            var url = 'http://humanizaconsultores.blogspot.pe/feeds/posts/default/?max-results=4&orderby=published&alt=json';
+            var url = 'https://www.googleapis.com/blogger/v3/blogs/7594995116968158119/pages?key=AIzaSyBpPpeq0vcSZpD4c2dO8FwwIe6LUpEi4HY';
             $.getJSON(
                     url,
                     function (data) {
                         var one = '';
                         try {
-                            one = data['feed']['entry'][0];
-                            $("#our_blog").find('.one').html('<p><strong>'+one['title']['$t']+'</strong></p>'+one['content']['$t']);
+                            one = data['items'][0];
+                            html = generate_html(one);
+                            $("#our_blog").find('.one').html(html);
                         } catch (ex) {
                         }
                         var two = '';
                         try {
-                            two = data['feed']['entry'][1];
-                            $("#our_blog").find('.two').html('<p><strong>'+two['title']['$t']+'</strong></p>'+two['content']['$t']);
+                            two = data['items'][1];
+                            html = generate_html(two);
+                            $("#our_blog").find('.two').html(html);
                         } catch (ex) {
                         }
                         var three = '';
                         try {
-                            three = data['feed']['entry'][2];
-                            $("#our_blog").find('.three').html('<p><strong>'+three['title']['$t']+'</strong></p>'+three['content']['$t']);
+                            three = data['items'][2];
+                            html = generate_html(three);
+                            $("#our_blog").find('.three').html(html);
                         } catch (ex) {
                         }
                         var four = '';
                         try {
-                            four = data['feed']['entry'][3];
-                            $("#our_blog").find('.four').html('<p><strong>'+four['title']['$t']+'</strong></p>'+four['content']['$t']);
+                            four = data['items'][3];
+                            html = generate_html(four);
+                            $("#our_blog").find('.four').html(html);
                         } catch (ex) {
                         }
                         
