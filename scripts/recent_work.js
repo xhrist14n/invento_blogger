@@ -11,8 +11,8 @@ $(
             $.each(
                     posts,
                     function (index, item) {
-                        console.log("texto :"+$(this).html());
-                        $($(this).find(".overlay")).css("margin-top", "200px");
+                        var html = $($(this).find(".overlay")).html();
+                        $(this).html($(this).html()+html);
                     }
             );
         }
