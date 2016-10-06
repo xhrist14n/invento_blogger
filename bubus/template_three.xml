@@ -282,13 +282,14 @@
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
                 <!-- OUR SERVICES -->
+                
                 <div class='wrap services-wrap' id='services'>
                     <section class='grid grid-pad services'>
                         <h2>Our Services</h2>
                         <div class='col-1-4 service-box service-1'>
                             <div class='content'>
                                 <div class='service-icon'>
-                                    <i class='circle-icon fa fa-heart'/>
+                                    <img src="https://xhrist14n.github.io/invento_blogger/images/frames/one.png"  class="img.responsive"/>
                                 </div>
                                 <div class='service-entry'>
                                     <!-- OUR SERVICES H3 -->
@@ -303,7 +304,7 @@
                         <div class='col-1-4 service-box service-2'>
                             <div class='content'>
                                 <div class='service-icon'>
-                                    <i class='circle-icon fa fa-star'/>
+                                    <img src="https://xhrist14n.github.io/invento_blogger/images/frames/two.png" class="img.responsive"/>
                                 </div>
                                 <div class='service-entry'>
                                     <!-- OUR SERVICES H3 -->
@@ -318,7 +319,7 @@
                         <div class='col-1-4 service-box service-3'>
                             <div class='content'>
                                 <div class='service-icon'>
-                                    <i class='circle-icon fa fa-desktop'/>
+                                    <img src="https://xhrist14n.github.io/invento_blogger/images/frames/three.png"  class="img.responsive"/>
                                 </div>
                                 <div class='service-entry'>
                                     <!-- OUR SERVICES H3 -->
@@ -333,7 +334,7 @@
                         <div class='col-1-4 service-box service-4'>
                             <div class='content'>
                                 <div class='service-icon'>
-                                    <i class='circle-icon fa fa-user'/>
+                                    <img src="https://xhrist14n.github.io/invento_blogger/images/frames/four.png"  class="img.responsive"/>
                                 </div>
                                 <div class='service-entry'>
                                     <!-- OUR SERVICES H3 -->
@@ -350,6 +351,8 @@
                 <svg class='curveDownColor' height='100' preserveAspectRatio='none' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M0 0 C 50 100 80 100 100 0 Z'/>
                 </svg>
+                
+                
             </b:if>
         </b:if>
 
