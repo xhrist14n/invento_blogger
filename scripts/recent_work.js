@@ -11,6 +11,7 @@ $(
             $.each(
                     wrap,
                     function (index, item) {
+                        console.log("texto :"+$(this).html());
                         $(this).css("margin-top", "200px");
                     }
             );
