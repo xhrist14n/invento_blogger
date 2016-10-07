@@ -1836,72 +1836,88 @@
                             <div id="our_blog">      
                                 <table width='100%'>
                                     <tr>
-                                        <td width='25%' class='one gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
-                                            <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/1.png' width="90%" class="img-rounded img-responsive"/>
-                                            <h4>
-                                                <a href="#">
-                                                    one
-                                                </a>
-                                            </h4>
+                                        <td width='25%' class='one' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                            <div class="gallery">
+                                                <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/1.png' width="90%" class="img-rounded img-responsive"/>
+                                                <h4>
+                                                    <a href="#">
+                                                        one
+                                                    </a>
+                                                </h4>
+                                            </div>
                                         </td>
-                                        <td width='25%' class='two gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
-                                            <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/2.png' width="90%" class="img-rounded img-responsive"/>
-                                            <h4>
-                                                <a href="#">
-                                                    two
-                                                </a>
-                                            </h4>
+                                        <td width='25%' class='two ' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                            <div class="gallery">
+                                                <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/2.png' width="90%" class="img-rounded img-responsive"/>
+                                                <h4>
+                                                    <a href="#">
+                                                        two
+                                                    </a>
+                                                </h4>
+                                            </div>
                                         </td>
-                                        <td width='25%' class='three gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
-                                            <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/3.png' width="90%" class="img-rounded img-responsive"/>
-                                            <h4>
-                                                <a href="#">
-                                                    three
-                                                </a>
-                                            </h4>
+                                        <td width='25%' class='three ' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                            <div class="gallery">
+                                                <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/3.png' width="90%" class="img-rounded img-responsive"/>
+                                                <h4>
+                                                    <a href="#">
+                                                        three
+                                                    </a>
+                                                </h4>
+                                            </div>
                                         </td>
-                                        <td width='25%' class='four gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
-                                            <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/4.png' width="90%" class="img-rounded img-responsive"/>
-                                            <h4>
-                                                <a href="#">
-                                                    four
-                                                </a>
-                                            </h4>
+                                        <td width='25%' class='four ' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                            <div class="gallery">
+                                                <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/4.png' width="90%" class="img-rounded img-responsive"/>
+                                                <h4>
+                                                    <a href="#">
+                                                        four
+                                                    </a>
+                                                </h4>
+                                            </div>
                                         </td>
                                     </tr>
                                     
                                     <tr>
-                                        <td width='25%' class='one gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
-                                            <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/5.png' width="90%" class="img-rounded img-responsive"/>
-                                            <h4>
-                                                <a href="#">
-                                                    five
-                                                </a>
-                                            </h4>
+                                        <td width='25%' class='one ' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                            <div class="gallery">
+                                                <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/5.png' width="90%" class="img-rounded img-responsive"/>
+                                                <h4>
+                                                    <a href="#">
+                                                        five
+                                                    </a>
+                                                </h4>
+                                            </div>
                                         </td>
-                                        <td width='25%' class='two gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
-                                            <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/6.png' width="90%" class="img-rounded img-responsive"/>
-                                            <h4>
-                                                <a href="#">
-                                                    six
-                                                </a>
-                                            </h4>
+                                        <td width='25%' class='two' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                            <div class="gallery">
+                                                <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/6.png' width="90%" class="img-rounded img-responsive"/>
+                                                <h4>
+                                                    <a href="#">
+                                                        six
+                                                    </a>
+                                                </h4>
+                                            </div>                                            
                                         </td>
-                                        <td width='25%' class='three gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
-                                            <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/7.png' width="90%" class="img-rounded img-responsive"/>
-                                            <h4>
-                                                <a href="#">
-                                                    seven
-                                                </a>
-                                            </h4>
+                                        <td width='25%' class='three ' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                            <div class="gallery">
+                                                <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/7.png' width="90%" class="img-rounded img-responsive"/>
+                                                <h4>
+                                                    <a href="#">
+                                                        seven
+                                                    </a>
+                                                </h4>
+                                            </div>
                                         </td>
-                                        <td width='25%' class='four gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
-                                            <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/8.png' width="90%" class="img-rounded img-responsive"/>
-                                            <h4>
-                                                <a href="#">
-                                                    eight
-                                                </a>
-                                            </h4>
+                                        <td width='25%' class='four ' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                            <div class="gallery">
+                                                <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/8.png' width="90%" class="img-rounded img-responsive"/>
+                                                <h4>
+                                                    <a href="#">
+                                                        eight
+                                                    </a>
+                                                </h4>
+                                            </div>
                                         </td>
                                     </tr>
                                 </table>
@@ -2475,7 +2491,7 @@
             <path d='M0 0 C 50 100 80 100 100 0 Z'/>
         </svg>
         
-        <div id='google-container' style='width:100%;height:400px;margin-top:1px;margin-bottom:1px;'>            
+        <div id='google-container' style='width:100%;height:700px;margin-top:1px;margin-bottom:1px;'>            
         </div>
         <svg class='curveUpColor' height='100' preserveAspectRatio='none' style='fill: #252629;stroke: #252629;' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
             <path d='M0 100 C 20 0 50 0 100 100 Z'/>

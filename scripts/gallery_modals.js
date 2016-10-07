@@ -6,7 +6,7 @@
 $(function(){
     console.log("inicio gallery");
     
-    var images = $("td").find(".gallery");
+    var images = $("#our_blog").find(".gallery");
     
     $.each(
         images,
