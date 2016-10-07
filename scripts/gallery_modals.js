@@ -25,30 +25,9 @@ $(function(){
                     
                     $("#modalizer").find(".modal-content").attr("src",src);
                     
-                    $(this).animatedModal({
-                        modalTarget:'modalizer',
-                        animatedIn:'lightSpeedIn',
-                        animatedOut:'bounceOutDown',
-                        color:'#3498db',
-                        // Callbacks
-                        beforeOpen: function() {
-                            $("#modalizer").css("display","");
-                        },           
-                        afterOpen: function() {
-                            console.log("The animation is completed");
-                        }, 
-                        beforeClose: function() {
-                            console.log("The animation was called");
-                        }, 
-                        afterClose: function() {
-                            $("#modalizer").css("display","none");
-                        }
-                    });
+                    $('#modalizer').modal('show');
                     
-                    try{
-                        event.preventDefault();
-                    }catch(ex){}
-                }
+                }    
             );
         }
     );
