@@ -15,7 +15,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 a {
-    color: rgba(255,123,13,1); /* Old browsers */
+    color: rgb(251,149,94); /* Old browsers */
     color: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
     color: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
 }
@@ -143,12 +143,12 @@ Buttons
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    background: rgba(255,123,13,1);
+    background: rgb(254,204,177);
 }
 
 .btn:hover, .btn:focus, .btn-current {
     color: #fff;
-    background: rgba(255,123,13,1); /* Old browsers */
+    background: rgb(251,149,94); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -268,12 +268,12 @@ Buttons
 
 .btn-ghost:hover {
     border-color: transparent;
-    background-color: rgba(255,123,13,1);
+    background-color: rgb(254,204,177);
 }
 
 .btn-ghost-dark {
-    border-color: rgba(255,123,13,1);
-    color: rgba(255,123,13,1);
+    border-color: rgb(254,204,177);
+    color: rgb(254,204,177);
 }
 
 /*****************************************
@@ -486,7 +486,7 @@ blockquote{
     margin: 2em 0;
     padding: 2.3em 1.5em;
     background: #f9f9f9;
-    border-left: 15px solid rgba(255,123,13,1);
+    border-left: 15px solid rgb(254,204,177);
     border-radius: 0;
     box-shadow: 11px 10px 0px #ECECEC;
 }
@@ -642,7 +642,7 @@ Navigation
 }
 
 .navigation .current a, .navigation ul li a:hover, .navigation ul li a:focus {
-    color: rgba(255,123,13,1);
+    color: rgb(254,204,177);
 }
 
 .navigation .sub-menu {
@@ -659,11 +659,8 @@ Navigation
     -o-transition: all .1s linear;
     transition: all .1s linear;
     opacity: 0;
-    border-top: 1px solid rgba(255,123,13,1);
-    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    border-top: 1px solid rgb(254,204,177);
+    background: #fff;
     /*box-shadow*/
     -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
@@ -826,7 +823,7 @@ Info Counter
 
 .info-counter-icon {
     font-size: 4em;
-    color: rgba(255,123,13,1);
+    color: rgb(254,204,177);
 }
 
 .info-counter-content, .info-counter-content h5 {
@@ -847,8 +844,8 @@ Blog Post CSS
 
 .recent-work {
     background: #6578bc; /* Old browsers */
-    background: -moz-linear-gradient(left,  #6578bc 0%, rgba(255,123,13,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6578bc), color-stop(100%,rgba(255,123,13,1))); /* Chrome,Safari4+ */
+    background: -moz-linear-gradient(left,  #6578bc 0%, rgb(254,204,177) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6578bc), color-stop(100%,rgb(254,204,177))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* IE10+ */
@@ -892,8 +889,8 @@ Blog Post CSS
 
 .filters .filter.active,
 .filters .filter:hover {
-    border: 2px solid rgba(255,123,13,1);
-    color: rgba(255,123,13,1);
+    border: 2px solid rgb(254,204,177);
+    color: rgb(254,204,177);
 }
 
 .recent-work a {
@@ -1049,7 +1046,7 @@ h2#title2 {
 }
 
 .post-wrap .post-meta i {
-    color: rgba(255,123,13,1);
+    color: rgb(254,204,177);
 }
 
 .post-wrap .post {
@@ -1072,7 +1069,7 @@ h2#title2 {
 }
 
 .post-wrap .post p a:hover {
-    background: rgba(255,123,13,1);
+    background: rgb(254,204,177);
     color: #fff;
 }
 
@@ -1128,9 +1125,9 @@ h2#title2 {
 }
 .showpageNum a:hover{
     text-decoration: none;
-    background-color: rgba(255,123,13,1);
+    background-color: rgb(254,204,177);
     color: #fff;
-    border: 1px solid rgba(255,123,13,1);
+    border: 1px solid rgb(254,204,177);
 }
 .showpagePoint{
     background-color: rgba(255,123,13,1);
@@ -1370,7 +1367,7 @@ Label CSS
     font-weight: 500;
 }
 .PopularPosts ul li a:hover {
-    color: rgba(255,123,13,1); /* Old browsers */
+    color: rgb(251,149,94); /* Old browsers */
     color: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
     color: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
     
@@ -2516,7 +2513,7 @@ address i {
 }
 
 .box-icon i {
-    color: rgba(255,123,13,1); /* Old browsers */
+    color: rgb(251,149,94); /* Old browsers */
     color: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
     color: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
     padding: 14px;
@@ -2600,7 +2597,7 @@ input:not([type=submit]):not([type=file]), textarea {
 }
 
 input:not([type=submit]):not([type=file]):focus, textarea:focus {
-    border-color: rgba(255,123,13,1);
+    border-color: rgb(254,204,177);
     outline: none;
 }
 
