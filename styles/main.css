@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-    color: rgba(0,0,0,1);
+    color: rgba(255,123,13,1); /* Old browsers */
 }
 
 a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
@@ -140,6 +140,8 @@ blockquote p {
     fill: #ECF0F1;
     stroke: #ECF0F1;
 }
+
+
 /* *********************************************************
 Buttons 
 ********************************************************* */
@@ -149,7 +151,6 @@ Buttons
     display: inline-block;
     margin: .8em 0;
     padding: .5em 1.6em;
-    color: #fff;
     font-size: .8em;
     /*border-radius*/
     -webkit-border-radius: 30px;
@@ -264,7 +265,7 @@ Buttons
 
 .btn-disabled, .btn-disabled:hover, .btn-disabled:focus {
     cursor: default;
-    color: #bbb;
+    color: #ffffff;
     background: #e6e6e6;
 }
 
@@ -277,7 +278,8 @@ Buttons
 
 .btn-ghost:hover {
     border-color: transparent;
-    background-color: rgba(255,123,13,1);
+    color: #ffffff;
+    background-color: rgba(0,0,0,1);
 }
 
 .btn-ghost-dark {
