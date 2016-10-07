@@ -330,7 +330,7 @@
                                     <!-- OUR SERVICES Paragraph -->
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat tellus eget libero pretium, sollicitudin feugiat libero.</p>
                                     <!-- OUR SERVICES Btn -->
-                                    <a class='btn read-more' href='#0'>Read More</a>
+                                    <a class='btn read-more' href='#0'>Leer mas</a>
                                 </div>
                             </div>
                         </div>
@@ -345,7 +345,7 @@
                                     <!-- OUR SERVICES Paragraph -->
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat tellus eget libero pretium, sollicitudin feugiat libero.</p>
                                     <!-- OUR SERVICES Btn -->
-                                    <a class='btn read-more' href='#0'>Read More</a>
+                                    <a class='btn read-more' href='#0'>Leer mas</a>
                                 </div>
                             </div>
                         </div>
@@ -360,7 +360,7 @@
                                     <!-- OUR SERVICES Pragraph -->
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat tellus eget libero pretium, sollicitudin feugiat libero.</p>
                                     <!-- OUR SERVICES Btn -->
-                                    <a class='btn read-more' href='#0'>Read More</a>
+                                    <a class='btn read-more' href='#0'>Leer mas</a>
                                 </div>
                             </div>
                         </div>
@@ -375,7 +375,7 @@
                                     <!-- OUR SERVICES Paragraph -->
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat tellus eget libero pretium, sollicitudin feugiat libero.</p>
                                     <!-- OUR SERVICES Btn -->
-                                    <a class='btn read-more' href='#0'>Read More</a>
+                                    <a class='btn read-more' href='#0'>Leer mas</a>
                                 </div>
                             </div>
                         </div>
@@ -2040,7 +2040,12 @@
                                             <!-- User Name --> 
                                             <h5>Tim Malkovic</h5>
                                             <!-- User Post -->
-                                            <span>CEO</span>
+                                            <p>
+                                                <span>CEO</span>
+                                            </p>
+                                            
+                                            
+                                            <a class='btn read-more' href='#0'>Leer mas</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2067,7 +2072,11 @@
                                         </div>
                                         <div class='work-info staff-info'>
                                             <h5>David Bell</h5>
-                                            <span>Creative Designer</span>
+                                            <p>
+                                                <span>Creative Designer</span>
+                                            </p>
+                                            
+                                            <a class='btn read-more' href='#0'>Leer mas</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2095,7 +2104,11 @@
                                         </div>
                                         <div class='work-info staff-info'>
                                             <h5>Eve Stinger</h5>
-                                            <span>Sales Manager</span>
+                                            <p>
+                                                <span>Sales Manager</span>
+                                            </p>                                           
+                                            
+                                            <a class='btn read-more' href='#0'>Leer mas</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2123,7 +2136,11 @@
                                         </div>
                                         <div class='work-info staff-info'>
                                             <h5>Will Peters</h5>
-                                            <span>Developer</span>
+                                            <p>
+                                                <span>Developer</span>
+                                            </p>
+                                            
+                                            <a class='btn read-more' href='#0'>Leer mas</a>
                                         </div>
                                     </div>
                                 </div>
