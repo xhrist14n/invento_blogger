@@ -660,7 +660,7 @@ Navigation
     transition: all .1s linear;
     opacity: 0;
     border-top: 1px solid rgba(255,123,13,1);
-    background: rgba(255,255,255,1);
+    background: rgba(0,0,0,1);
     /*
     background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); 
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
