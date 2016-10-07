@@ -8,7 +8,7 @@ $(function(){
     
     $("#normalizer").css("display","none");
     
-    var images = $("#our_blog").find(".gallery .modalize");
+    var images = $($("#our_blog").find(".gallery")).find(".modalize");
     
     $.each(
         images,
