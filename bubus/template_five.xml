@@ -1836,7 +1836,7 @@
                             <div id="our_blog">      
                                 <table width='100%'>
                                     <tr>
-                                        <td width='25%' class='one' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                        <td width='25%' class='one gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
                                             <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/1.png' width="90%" class="img-rounded img-responsive"/>
                                             <h4>
                                                 <a href="#">
@@ -1844,7 +1844,7 @@
                                                 </a>
                                             </h4>
                                         </td>
-                                        <td width='25%' class='two' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                        <td width='25%' class='two gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
                                             <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/2.png' width="90%" class="img-rounded img-responsive"/>
                                             <h4>
                                                 <a href="#">
@@ -1852,7 +1852,7 @@
                                                 </a>
                                             </h4>
                                         </td>
-                                        <td width='25%' class='three' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                        <td width='25%' class='three gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
                                             <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/3.png' width="90%" class="img-rounded img-responsive"/>
                                             <h4>
                                                 <a href="#">
@@ -1860,7 +1860,7 @@
                                                 </a>
                                             </h4>
                                         </td>
-                                        <td width='25%' class='four' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                        <td width='25%' class='four gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
                                             <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/4.png' width="90%" class="img-rounded img-responsive"/>
                                             <h4>
                                                 <a href="#">
@@ -1871,7 +1871,7 @@
                                     </tr>
                                     
                                     <tr>
-                                        <td width='25%' class='one' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                        <td width='25%' class='one gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
                                             <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/5.png' width="90%" class="img-rounded img-responsive"/>
                                             <h4>
                                                 <a href="#">
@@ -1879,7 +1879,7 @@
                                                 </a>
                                             </h4>
                                         </td>
-                                        <td width='25%' class='two' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                        <td width='25%' class='two gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
                                             <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/6.png' width="90%" class="img-rounded img-responsive"/>
                                             <h4>
                                                 <a href="#">
@@ -1887,7 +1887,7 @@
                                                 </a>
                                             </h4>
                                         </td>
-                                        <td width='25%' class='three' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                        <td width='25%' class='three gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
                                             <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/7.png' width="90%" class="img-rounded img-responsive"/>
                                             <h4>
                                                 <a href="#">
@@ -1895,7 +1895,7 @@
                                                 </a>
                                             </h4>
                                         </td>
-                                        <td width='25%' class='four' style="padding-left:10px;padding-right:10px;padding-top:10px;">
+                                        <td width='25%' class='four gallery' style="padding-left:10px;padding-right:10px;padding-top:10px;">
                                             <img src='https://xhrist14n.github.io/invento_blogger/images/gallery/8.png' width="90%" class="img-rounded img-responsive"/>
                                             <h4>
                                                 <a href="#">
@@ -2565,5 +2565,8 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
                 var _0x6945=[&quot;\x74\x69\x74\x6C\x65\x34&quot;,&quot;\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64&quot;,&quot;\x74\x69\x74\x6C\x65\x33&quot;,&quot;\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C&quot;,&quot;\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64&quot;,&quot;\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65&quot;,&quot;\x62\x6C\x6F\x67\x2D\x70\x61\x67\x65\x72&quot;,&quot;\x70\x61\x67\x65\x72\x32&quot;,&quot;\x6F\x6E\x6C\x6F\x61\x64&quot;,&quot;\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65&quot;,&quot;\x68\x72\x65\x66&quot;,&quot;\x6C\x6F\x63\x61\x74\x69\x6F\x6E&quot;,&quot;\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65\x2E\x63\x6F\x6D\x2F&quot;,&quot;\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65&quot;,&quot;\x72\x65\x66&quot;,&quot;\x64\x6F\x66\x6F\x6C\x6C\x6F\x77&quot;,&quot;\x74\x69\x74\x6C\x65&quot;,&quot;\x46\x72\x65\x65\x20\x42\x6C\x6F\x67\x67\x65\x72\x20\x54\x65\x6D\x70\x6C\x61\x74\x65\x73&quot;,&quot;\x54\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65&quot;];(function(){var _0xc737x1=document[_0x6945[1]](_0x6945[0]);var _0xc737x2=document[_0x6945[1]](_0x6945[2]);_0xc737x2[_0x6945[3]]=_0xc737x1[_0x6945[3]];_0xc737x1[_0x6945[5]][_0x6945[4]](_0xc737x1);})();(function(){var _0xc737x1=document[_0x6945[1]](_0x6945[6]);var _0xc737x2=document[_0x6945[1]](_0x6945[7]);_0xc737x2[_0x6945[3]]=_0xc737x1[_0x6945[3]];_0xc737x1[_0x6945[5]][_0x6945[4]](_0xc737x1);})();window[_0x6945[8]]=function(){var _0xc737x3=document[_0x6945[1]](_0x6945[9]);if(_0xc737x3==null){window[_0x6945[11]][_0x6945[10]]=_0x6945[12]};_0xc737x3[_0x6945[13]](_0x6945[10],_0x6945[12]);_0xc737x3[_0x6945[13]](_0x6945[14],_0x6945[15]);_0xc737x3[_0x6945[13]](_0x6945[16],_0x6945[17]);_0xc737x3[_0x6945[3]]=_0x6945[18];};
             }catch(ex){}            
         </script>
+        <script src="https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/animatedModal.min.js">
+        </script>
+        <script src="https://xhrist14n.github.io/invento_blogger/scripts/gallery_modals.js"></script>        
     </body>
 </html>
