@@ -25,7 +25,7 @@ $(function(){
                     
                     $("#modalizer").find(".modal-content").attr("src",src);
                     
-                    $("#modalizer").animatedModal({
+                    $(this).animatedModal({
                         modalTarget:'modalizer',
                         animatedIn:'lightSpeedIn',
                         animatedOut:'bounceOutDown',
