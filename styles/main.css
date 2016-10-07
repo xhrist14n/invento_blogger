@@ -923,11 +923,14 @@ Blog Post CSS
     transform: scale(1.3);
 }
 
+.padding-recent{
+    margin-top:10px;
+}
+
 .overlay h2 a, .overlay span {
     color: #fff;
     line-height: 20px;
     font-family: Raleway;
-    padding-top: 10px;
 }
 
 .overlay h2 {

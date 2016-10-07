@@ -12,7 +12,7 @@ $(
                     posts,
                     function (index, item) {
                         var html = $($(this).find(".overlay")).html();
-                        html = html.replace("<h2>","<h4>");
+                        html = html.replace("<h2>","<h4 class='padding-recent'>");
                         html = html.replace("</h2>","</h4>");
                         $(this).html($(this).html()+'<div class="service-entry">'+html+'</div>');
                     }
