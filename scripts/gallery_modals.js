@@ -25,6 +25,10 @@ $(function(){
                     
                     $("#modalizer").find(".modal-content").attr("src",src);
                     
+                    $("#modalizer").find(".modal-content").css("width","100%");
+                    
+                    $("#modalizer").find(".modal-content").css("height","100%");
+                    
                     $('#modalizer').modal('show');
                     
                 }    
