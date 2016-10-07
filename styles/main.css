@@ -2699,3 +2699,21 @@ a.home-link {
     margin-top: 260px;
     margin-left: auto;
 }
+
+.gallery{
+    cursor: default;    
+    -moz-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+
+.gallery:hover{
+    cursor: pointer;
+    -moz-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    -webkit-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    -o-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    -ms-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+}
