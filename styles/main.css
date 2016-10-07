@@ -21,8 +21,8 @@ a {
 }
 
 a:hover {
-    color: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,150,50,1) 41%, rgba(255,139,35,0.59) 65%, rgba(255,123,13,1) 100%); /* FF3.6-15 */
-    color: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,150,50,1) 41%,rgba(255,139,35,0.59) 65%,rgba(255,123,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    color: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,150,50,1) 41%, rgba(255,139,35,0.59) 65%, rgba(255,123,13,1); 100%); /* FF3.6-15 */
+    color: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,150,50,1) 41%,rgba(255,139,35,0.59) 65%,rgba(255,123,13,1); 100%); /* Chrome10-25,Safari5.1-6 */
 }
 
 a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
@@ -143,7 +143,7 @@ Buttons
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    background: rgba(255,123,13,1)
+    background: rgba(255,123,13,1);
 }
 
 .btn:hover, .btn:focus, .btn-current {
@@ -268,12 +268,12 @@ Buttons
 
 .btn-ghost:hover {
     border-color: transparent;
-    background-color: rgba(255,123,13,1)
+    background-color: rgba(255,123,13,1);
 }
 
 .btn-ghost-dark {
-    border-color: rgba(255,123,13,1)
-    color: rgba(255,123,13,1)
+    border-color: rgba(255,123,13,1);
+    color: rgba(255,123,13,1);
 }
 
 /*****************************************
@@ -486,7 +486,7 @@ blockquote{
     margin: 2em 0;
     padding: 2.3em 1.5em;
     background: #f9f9f9;
-    border-left: 15px solid rgba(255,123,13,1)
+    border-left: 15px solid rgba(255,123,13,1);
     border-radius: 0;
     box-shadow: 11px 10px 0px #ECECEC;
 }
@@ -642,7 +642,7 @@ Navigation
 }
 
 .navigation .current a, .navigation ul li a:hover, .navigation ul li a:focus {
-    color: rgba(255,123,13,1)
+    color: rgba(255,123,13,1);
 }
 
 .navigation .sub-menu {
@@ -659,7 +659,7 @@ Navigation
     -o-transition: all .1s linear;
     transition: all .1s linear;
     opacity: 0;
-    border-top: 1px solid rgba(255,123,13,1)
+    border-top: 1px solid rgba(255,123,13,1);
     /*box-shadow*/
     -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
@@ -827,7 +827,7 @@ Info Counter
 
 .info-counter-icon {
     font-size: 4em;
-    color: rgba(255,123,13,1)
+    color: rgba(255,123,13,1);
 }
 
 .info-counter-content, .info-counter-content h5 {
@@ -893,8 +893,8 @@ Blog Post CSS
 
 .filters .filter.active,
 .filters .filter:hover {
-    border: 2px solid rgba(255,123,13,1)
-    color: rgba(255,123,13,1)
+    border: 2px solid rgba(255,123,13,1);
+    color: rgba(255,123,13,1);
 }
 
 .recent-work a {
@@ -1050,7 +1050,7 @@ h2#title2 {
 }
 
 .post-wrap .post-meta i {
-    color: rgba(255,123,13,1)
+    color: rgba(255,123,13,1);
 }
 
 .post-wrap .post {
@@ -1073,7 +1073,7 @@ h2#title2 {
 }
 
 .post-wrap .post p a:hover {
-    background: rgba(255,123,13,1)
+    background: rgba(255,123,13,1);
     color: #fff;
 }
 
@@ -1129,9 +1129,9 @@ h2#title2 {
 }
 .showpageNum a:hover{
     text-decoration: none;
-    background-color: rgba(255,123,13,1)
+    background-color: rgba(255,123,13,1);
     color: #fff;
-    border: 1px solid rgba(255,123,13,1)
+    border: 1px solid rgba(255,123,13,1);
 }
 .showpagePoint{
     background-color: rgba(255,123,13,1);
@@ -2601,7 +2601,7 @@ input:not([type=submit]):not([type=file]), textarea {
 }
 
 input:not([type=submit]):not([type=file]):focus, textarea:focus {
-    border-color: rgba(255,123,13,1)
+    border-color: rgba(255,123,13,1);
     outline: none;
 }
 
