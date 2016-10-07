@@ -1768,7 +1768,9 @@
                                             <i class='fa fa-quote-left'/>
                                         </div>
                                         <!-- Person Paragraph -->
-                                        <p>Curly is an extraordinary, awesome Theme, I would recommend this Theme to anyone for their next project. Go ahead and download it now!</p>
+                                        <p class='text-font-carousel'>
+                                            Curly is an extraordinary, awesome Theme, I would recommend this Theme to anyone for their next project. Go ahead and download it now!
+                                        </p>
                                         <!-- Person Name -->
                                         <h4>-David Bell</h4>
                                     </div><!-- End of item -->
@@ -1778,7 +1780,9 @@
                                             <i class='fa fa-quote-left'/>
                                         </div>
                                         <!-- Person Paragraph -->
-                                        <p>The good times are for those who take action. Curly is a simple and easy to use template for creative people. Download this theme and give it a try!</p>
+                                        <p class='text-font-carousel'>
+                                            The good times are for those who take action. Curly is a simple and easy to use template for creative people. Download this theme and give it a try!
+                                        </p>
                                         <!-- Person Name -->
                                         <h4>-Eve Stinger</h4>
                                     </div><!-- End of item -->
@@ -1787,7 +1791,9 @@
                                             <i class='fa fa-quote-left'/>
                                         </div>
                                         <!-- Person Paragraph -->
-                                        <p>Awesome theme! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus incidunt possimus eveniet aperiam, minus deleniti iure ipsa praesentium amet, labore voluptatum fugit earum, porro non sequi sint soluta reprehenderit ad?</p>
+                                        <p class='text-font-carousel'>
+                                            Awesome theme! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus incidunt possimus eveniet aperiam, minus deleniti iure ipsa praesentium amet, labore voluptatum fugit earum, porro non sequi sint soluta reprehenderit ad?
+                                        </p>
                                         <!-- Person Name -->
                                         <h4>-Will Peters</h4>
                                     </div><!-- End of item -->
