@@ -40,9 +40,9 @@ $(document).ready(function () {
 
 //Loader
     $(window).load(function () {
-        $(".loader-overlay").fadeOut("slow");
+        //$(".loader-overlay").fadeOut("slow");
         ///$(".loader-overlay").css("display","none");
-    })
+    });
 
 //Counter
     $('.counter').counterUp({
