@@ -2056,7 +2056,7 @@ Quotes Section
 **********************************************************/
 
 .text-font-carousel{
-    font-size: 18px;    
+    font-size: 17px;    
 }
 
 .quotes-icon {
@@ -2069,14 +2069,12 @@ Quotes Section
 
 .cl-client-carousel .client-carousel-item h4 {
     font-style: italic;
-    font-size: 4em;
 }
 
 .cl-client-carousel .client-carousel-item p {
     line-height: 1.8em;
     width: 80%;
     margin: 10px auto;
-    font-size: 3em;
 }
 
 .cl-client-carousel.owl-theme .owl-controls .owl-page span {
