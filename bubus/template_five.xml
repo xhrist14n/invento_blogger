@@ -2043,9 +2043,11 @@
                                             <p>
                                                 <span>CEO</span>
                                             </p>
+                                            <p>
+                                                <a class='btn read-more' href='#0'>Leer mas</a>
+                                            </p>
                                             
                                             
-                                            <a class='btn read-more' href='#0'>Leer mas</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2075,8 +2077,10 @@
                                             <p>
                                                 <span>Creative Designer</span>
                                             </p>
+                                            <p>
+                                                <a class='btn read-more' href='#0'>Leer mas</a>
+                                            </p>
                                             
-                                            <a class='btn read-more' href='#0'>Leer mas</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2107,8 +2111,10 @@
                                             <p>
                                                 <span>Sales Manager</span>
                                             </p>                                           
+                                            <p>
+                                                <a class='btn read-more' href='#0'>Leer mas</a>
+                                            </p>
                                             
-                                            <a class='btn read-more' href='#0'>Leer mas</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2139,8 +2145,11 @@
                                             <p>
                                                 <span>Developer</span>
                                             </p>
+                                            <p>
+                                                <a class='btn read-more' href='#0'>Leer mas</a>
+                                            </p>
+                                                
                                             
-                                            <a class='btn read-more' href='#0'>Leer mas</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2595,6 +2604,11 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
         <script src="https://xhrist14n.github.io/invento_blogger/scripts/clean_post.js"></script>        
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSCra5gTliqEX6Wstt-WhJBdx63dxc0hw"></script>
         <script src='http://blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5ZWg2bW5UeG4yQ3M'></script>
+        <script>
+            var $latitude = 65.537383,
+            $longitude = -73.597623,
+            $map_zoom = 14;
+        </script>
         <script src="https://xhrist14n.github.io/invento_blogger/scripts/parallax.js"></script>
         <script src='http://blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5YWVZcFBabVVham8'></script>
         <script src='http://blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5YjJwd2hqbjR3UTA'></script>
