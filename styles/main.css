@@ -2707,6 +2707,7 @@ a.home-link {
     -o-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
     -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
     transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    z-index:  1;
 }
 
 .gallery:hover{
@@ -2716,4 +2717,5 @@ a.home-link {
     -o-transform: scale(1.1) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
     -ms-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
     transform: scale(1.1) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    z-index:  9999;
 }
