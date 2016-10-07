@@ -2711,9 +2711,9 @@ a.home-link {
 
 .gallery:hover{
     cursor: pointer;
-    -moz-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
-    -webkit-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
-    -o-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    -moz-transform: scale(1.1) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    -webkit-transform: scale(1.1) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    -o-transform: scale(1.1) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
     -ms-transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
-    transform: scale(2) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
+    transform: scale(1.1) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
 }
