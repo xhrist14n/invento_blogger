@@ -156,10 +156,11 @@ Buttons
     -moz-border-radius: 30px;
     border-radius: 30px;
     background: rgba(255,123,13,1);
+    color:  #ffffff;
 }
 
 .btn:hover, .btn:focus, .btn-current {
-    color: white;
+    color: #ffffff;
     background: rgba(0,0,0,1); /* Old browsers */    
 }
 
@@ -281,7 +282,7 @@ Buttons
 
 .btn-ghost-dark {
     border-color: rgba(255,123,13,1);
-    color: rgba(255,123,13,1);
+    color: rgba(255,255,255,1);
 }
 
 /*****************************************
