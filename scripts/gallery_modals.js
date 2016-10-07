@@ -21,7 +21,29 @@ $(function(){
                     
                     var src = $(image).attr("src");
                     
-                    $("#normalizer").css("display","");
+                    $("#modalizer").css("display","");
+                    
+                    $("#modalizer").find(".modal-content").attr("src",src);
+                    
+                    $("#modalizer").animatedModal({
+                        modalTarget:'modalizer',
+                        animatedIn:'lightSpeedIn',
+                        animatedOut:'bounceOutDown',
+                        color:'#3498db',
+                        // Callbacks
+                        beforeOpen: function() {
+                            $("#modalizer").css("display","");
+                        },           
+                        afterOpen: function() {
+                            console.log("The animation is completed");
+                        }, 
+                        beforeClose: function() {
+                            console.log("The animation was called");
+                        }, 
+                        afterClose: function() {
+                            $("#modalizer").css("display","none");
+                        }
+                    });
                     
                     try{
                         event.preventDefault();
