@@ -9,7 +9,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 body{line-height:1}
 ol,ul{list-style:none}
 blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}a{text-decoration:none !important;}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none !important;}
 
 *, *:before, *:after {
     box-sizing: border-box;
@@ -157,12 +159,8 @@ Buttons
 }
 
 .btn:hover, .btn:focus, .btn-current {
-    color: #fff;
-    background: rgba(255,123,13,1); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(251,149,94,1) 0%, rgba(234,85,7,1) 36%, rgba(241,116,50,1) 64%, rgba(254,204,177,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(251,149,94,1) 0%,rgba(234,85,7,1) 36%,rgba(241,116,50,1) 64%,rgba(254,204,177,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb955e', endColorstr='#feccb1',GradientType=0 ); /* IE6-9 */
+    color: white;
+    background: rgba(0,0,0,1); /* Old browsers */    
 }
 
 .btn:hover, .social-set a:hover, .team-social a i:hover, .header-carousel .owl-buttons .owl-prev:hover, .header-carousel .owl-buttons .owl-next:hover {
