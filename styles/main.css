@@ -2064,13 +2064,14 @@ Quotes Section
 
 .cl-client-carousel .client-carousel-item h4 {
     font-style: italic;
-    font-size: 2em;
+    font-size: 4em;
 }
 
 .cl-client-carousel .client-carousel-item p {
     line-height: 1.8em;
     width: 80%;
     margin: 10px auto;
+    font-size: 3em;
 }
 
 .cl-client-carousel.owl-theme .owl-controls .owl-page span {
