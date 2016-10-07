@@ -39,9 +39,10 @@ $(document).ready(function () {
     }(jQuery));
 
 //Loader
-    /*$(window).load(function () {
+    $(window).load(function () {
         $(".loader-overlay").fadeOut("slow");
-    })*/
+        ///$(".loader-overlay").css("display","none");
+    })
 
 //Counter
     $('.counter').counterUp({

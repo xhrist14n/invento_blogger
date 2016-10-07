@@ -1932,7 +1932,7 @@ Loader
     border-radius: 3px;
     opacity: 0;
     width: 25px;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-name: subtleIn;
@@ -1944,19 +1944,19 @@ Loader
 }
 .loader .bar:nth-child(2) {
     background-color: rgba(235,123,13,1);
-    -webkit-animation-delay: .3s;
+    -webkit-animation-delay: .1s;
 }
 .loader .bar:nth-child(3) {
     background-color: rgba(245,121,13,1);
-    -webkit-animation-delay: .6s;
+    -webkit-animation-delay: .2s;
 }
 .loader .bar:nth-child(4) {
     background-color: rgba(251,124,13,1);
-    -webkit-animation-delay: .9s;
+    -webkit-animation-delay: .3s;
 }
 .loader .bar:nth-child(5) {
     background-color: rgba(249,123,12,1);
-    -webkit-animation-delay: 1.2s;
+    -webkit-animation-delay: .4s;
 }
 
 @-webkit-keyframes subtleIn {
