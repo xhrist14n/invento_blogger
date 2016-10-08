@@ -2631,5 +2631,6 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
         </script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="https://xhrist14n.github.io/invento_blogger/scripts/gallery_modals.js"></script>        
+        <script src="https://xhrist14n.github.io/invento_blogger/scripts/button_colors.js"></script>        
     </body>
 </html>
