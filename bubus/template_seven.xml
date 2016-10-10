@@ -255,7 +255,7 @@
                       <div>
                         <img u="image" src="https://xhrist14n.github.io/invento_blogger/images/slider/1.png" />
                         <div data-u="caption" data-t="0" class="caption-text">
-                            <div>
+                            <div style="margin-top:260px;">
                                 image, text, and custom layers
                             </div>
 
@@ -265,7 +265,7 @@
                       <div>
                         <img u="image" src="https://xhrist14n.github.io/invento_blogger/images/slider/2.png" />
                         <div data-u="caption" data-t="1" class="caption-text">
-                            <div>
+                            <div style="margin-top:260px;">
                                 image, text, and custom layers
                             </div>
 
@@ -275,7 +275,7 @@
                       <div>
                         <img u="image" src="https://xhrist14n.github.io/invento_blogger/images/slider/3.png" />
                         <div data-u="caption" data-t="2" class="caption-text">
-                            <div>
+                            <div style="margin-top:260px;">
                                 image, text, and custom layers
                             </div>
                         </div>
@@ -284,7 +284,7 @@
                       <div>
                         <img u="image" src="https://xhrist14n.github.io/invento_blogger/images/slider/4.png" />
                         <div data-u="caption" data-t="3" class="caption-text">
-                            <div>
+                            <div style="margin-top:260px;">
                                 image, text, and custom layers
                             </div>
                         </div>
