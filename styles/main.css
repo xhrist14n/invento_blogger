@@ -2706,11 +2706,16 @@ a.home-link {
     color:#fff;
 }
 
-.caption-text{
+.caption-text{   
+    position: absolute; 
+    top: 260px; 
     left: 0px; 
-    width: 100%; 
-    overflow: hidden;
-    margin-top: 260px;    
+    width: 1300px; 
+    height: 40px; 
+    font-size: 20px; 
+    color: #ffffff; 
+    line-height: 30px; 
+    text-align: center;
 }
 
 .gallery{
