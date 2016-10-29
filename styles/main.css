@@ -2737,3 +2737,8 @@ a.home-link {
     transform: scale(1.1) rotate(-1deg) translateX(-3px) translateY(3px) skewX(-3deg) skewY(3deg);
     z-index:  9999;
 }
+
+.navigation a, 
+.navigation ul li a{
+    color: #000000;
+}
