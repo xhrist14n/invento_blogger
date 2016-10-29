@@ -83,3 +83,9 @@ footer.entry-meta {
 .navigation li{
     color: #000000 !important;
 }
+
+
+.header-home .navigation a {
+    color: #000000;
+}
+

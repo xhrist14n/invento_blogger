@@ -62,8 +62,7 @@
         /*]]>*/
         </script>
         <link href='https://xhrist14n.github.io/sliders_jssor/bower_components/bootstrap/dist/css/bootstrap.css' rel='stylesheet'/>
-        <link href='https://xhrist14n.github.io/sliders_video/app/styles/main.css' rel='stylesheet'/>
-        <link href='http://aqpmedia.com/blogger/clinicamaza/stilos.css' rel='stylesheet'/>
+
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
                 <link href='https://xhrist14n.github.io/invento_blogger/styles/nonpagetype.css' rel='stylesheet'/>
@@ -92,6 +91,8 @@
         </b:if>
         <!-- Style For Page End -->                
         <link href='http://aqpmedia.com/blogger/clinicamaza/stilos.css' rel='stylesheet'/>
+        <link href='https://xhrist14n.github.io/sliders_video/app/styles/main.css' rel='stylesheet'/>        
+        <link href='https://xhrist14n.github.io/invento_blogger/styles/main.css' rel='stylesheet'/>
     </head>
     <!--<body>-->
     <body id='home'>
