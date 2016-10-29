@@ -41,7 +41,7 @@
         ]]></b:skin>
         <script type='text/javascript'>
         /*<![CDATA[*/
-        var hide_popular=true;
+        var hide_popular=false;
         /*]]>*/
         </script>
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
@@ -50,7 +50,7 @@
             </b:if>
             <script type='text/javascript'>
             /*<![CDATA[*/
-            hide_popular=false;
+            hide_popular=true;
             /*]]>;*/
             </script>            
         </b:if>

@@ -14,13 +14,13 @@ function hide_all(){
         try{
             $("#PopularPosts2 h2").css("display","none");
         }catch(ex){}
-    }
-    try{
-        $(".widget-content").css("display","none");
-    }catch(ex){}
-    try{
-        $(".widget-item-control").css("display","none");
-    }catch(ex){}
+        try{
+            $(".widget-content").css("display","none");
+        }catch(ex){}
+        try{
+            $(".widget-item-control").css("display","none");
+        }catch(ex){}
+    }        
 }
 
 $(
