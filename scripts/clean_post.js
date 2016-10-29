@@ -10,9 +10,11 @@ function hide_all(){
     try{
         $("#footer1").css("display","none");
     }catch(ex){}
-    try{
-        $("#PopularPosts2 h2").css("display","none");
-    }catch(ex){}
+    if(hide_popular==true){
+        try{
+            $("#PopularPosts2 h2").css("display","none");
+        }catch(ex){}
+    }
     try{
         $(".widget-content").css("display","none");
     }catch(ex){}
