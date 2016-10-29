@@ -98,3 +98,16 @@ footer.entry-meta {
  .navigation label{		
      color:#000 !important;		
  } 
+
+.navigation li{
+    color: #000000 !important;
+}
+
+.header-home .navigation a {
+    color: #000000;
+}
+
+.navigation .sub-menu a{
+    color: #ffffff;
+}
+
