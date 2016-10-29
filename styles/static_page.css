@@ -90,3 +90,11 @@ footer.entry-meta {
 .header-home .navigation a {
     color: #000000;
 }
+
+.navigation ul li a{		 +
+     color: #807C7C !important;		
+ }		
+
+ .navigation label{		
+     color:#000 !important;		
+ } 
