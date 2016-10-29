@@ -79,8 +79,14 @@ footer.entry-meta {
     background: #fff;
     border-bottom: 1px solid #ddd;
 }
+
+.main-wrapper{margin:0 !important;}
+.sidebar-wrapper{display:none;}
+
 .navigation li{
     color: #000000 !important;
 }
-.main-wrapper{margin:0 !important;}
-.sidebar-wrapper{display:none;}
+
+.header-home .navigation a {
+    color: #000000;
+}

@@ -79,3 +79,7 @@ footer.entry-meta {
     background: #fff;
     border-bottom: 1px solid #ddd;
 }
+
+.navigation li{
+    color: #000000 !important;
+}

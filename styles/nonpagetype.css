@@ -2,3 +2,11 @@
 .outer-wrapper{background:transparent;border:0;}
 .main-wrapper{margin:0;}
 #content{float:none;border:0;}
+
+.navigation li{
+    color: #000000 !important;
+}
+
+.header-home .navigation a {
+    color: #000000;
+}
