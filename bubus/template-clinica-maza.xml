@@ -91,6 +91,7 @@
             </script>            
         </b:if>
         <!-- Style For Page End -->                
+        <link href='http://aqpmedia.com/blogger/clinicamaza/stilos.css' rel='stylesheet'/>
     </head>
     <!--<body>-->
     <body id='home'>
