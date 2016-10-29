@@ -93,3 +93,10 @@ footer.entry-meta {
    color: #ffffff;
 }
 
+.navigation ul li a{		
+     color: #807C7C !important;		
+ }		
+ .navigation label{		
+    color:#000 !important;		
+ }
+
