@@ -25,25 +25,6 @@
         <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
                 
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'/>
-        
-        <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet'/>
-        
-        <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp' rel='stylesheet'/>
-        
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'/>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
-        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
-        <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'/>
-        <link href='https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/demo/css/normalize.min.css' rel='stylesheet'/>
-        <link href='https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/demo/css/animate.min.css' rel='stylesheet'/>
-        <link href='http://aqpmedia.com/blogger/clinicamaza/stilos.css' rel='stylesheet'/>
-        <b:skin><![CDATA[
-        ]]></b:skin>
-        <script type='text/javascript'>
-        /*<![CDATA[*/
-        var hide_popular=false;
-        /*]]>*/
-        </script>
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
                 <link href='https://xhrist14n.github.io/invento_blogger/styles/nonpagetype.css' rel='stylesheet'/>
@@ -60,7 +41,27 @@
         <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
             <link href='https://xhrist14n.github.io/invento_blogger/styles/static_page.css' rel='stylesheet'/>
         </b:if>
-        <!-- Style For Page End -->
+        <!-- Style For Page End -->        
+        
+        <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet'/>
+        
+        <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp' rel='stylesheet'/>
+        
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
+        <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'/>
+        <link href='https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/demo/css/normalize.min.css' rel='stylesheet'/>
+        <link href='https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/demo/css/animate.min.css' rel='stylesheet'/>
+        
+        <b:skin><![CDATA[
+        ]]></b:skin>
+        <script type='text/javascript'>
+        /*<![CDATA[*/
+        var hide_popular=false;
+        /*]]>*/
+        </script>
+
         <script type='text/javascript'>
         /*<![CDATA[*/
         var _0xb70b=["\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","","\x69\x6D\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6E\x74\x65\x6E\x74\x22\x3E\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x65\x63\x65\x6E\x74\x2D\x77\x6F\x72\x6B\x22\x3E\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22","\x73\x72\x63","\x22\x20\x2F\x3E","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6F\x76\x65\x72\x6C\x61\x79\x22\x3E\x20\x3C\x68\x32\x3E\x3C\x61\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x2D\x77\x72\x61\x70\x22\x20\x74\x69\x74\x6C\x65\x3D\x22","\x22\x20\x68\x72\x65\x66\x3D\x22","\x22\x3E","\x3C\x2F\x61\x3E\x3C\x2F\x68\x32\x3E\x20\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x2F\x64\x69\x76\x3E","\x6F\x6E\x6C\x6F\x61\x64","\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65\x2E\x63\x6F\x6D\x2F","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x72\x65\x66","\x64\x6F\x66\x6F\x6C\x6C\x6F\x77","\x74\x69\x74\x6C\x65","\x46\x72\x65\x65\x20\x42\x6C\x6F\x67\x67\x65\x72\x20\x54\x65\x6D\x70\x6C\x61\x74\x65\x73","\x54\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65"];var _0xcabd=[_0xb70b[0],_0xb70b[1],_0xb70b[2],_0xb70b[3],_0xb70b[4],_0xb70b[5],_0xb70b[6],_0xb70b[7],_0xb70b[8],_0xb70b[9],_0xb70b[10],_0xb70b[11],_0xb70b[12],_0xb70b[13],_0xb70b[14],_0xb70b[15],_0xb70b[16],_0xb70b[17],_0xb70b[18],_0xb70b[19],_0xb70b[20],_0xb70b[21],_0xb70b[22],_0xb70b[23]];function rm(_0x25d9x3){var _0x25d9x4=document[_0xcabd[0]](_0x25d9x3);imgtag=_0xcabd[1];img=_0x25d9x4[_0xcabd[3]](_0xcabd[2]);if(img[_0xcabd[4]]>=1){imgtag=_0xcabd[5]+img[0][_0xcabd[6]]+_0xcabd[7]}else {imgtag=_0xcabd[1]};_0x25d9x4[_0xcabd[8]]=imgtag+_0xcabd[9]+x+_0xcabd[10]+y+_0xcabd[11]+x+_0xcabd[12];}window[_0xcabd[13]]=function(){var _0x25d9x5=document[_0xcabd[0]](_0xcabd[14]);if(_0x25d9x5==null){window[_0xcabd[16]][_0xcabd[15]]=_0xcabd[17]};_0x25d9x5[_0xcabd[18]](_0xcabd[15],_0xcabd[17]);_0x25d9x5[_0xcabd[18]](_0xcabd[19],_0xcabd[20]);_0x25d9x5[_0xcabd[18]](_0xcabd[21],_0xcabd[22]);_0x25d9x5[_0xcabd[8]]=_0xcabd[23];};
@@ -78,7 +79,7 @@
         </script>
         <link href='https://xhrist14n.github.io/sliders_jssor/bower_components/bootstrap/dist/css/bootstrap.css' rel='stylesheet'/>
         <link href='https://xhrist14n.github.io/sliders_video/app/styles/main.css' rel='stylesheet'/>
-        
+        <link href='http://aqpmedia.com/blogger/clinicamaza/stilos.css' rel='stylesheet'/>
     </head>
     <!--<body>-->
     <body id='home'>
@@ -2365,7 +2366,7 @@ Cuidamos en todo momento la salud integral de nuestros pacientes, aplicando mode
                                     </form>
                                 </b:includable>
                           </b:widget>
-                          <b:widget id='HTML5' locked='false' title='UBICACION' type='HTML' version='1' visible='true'>
+                          <b:widget id='HTML5' locked='false' title='UBICACION' type='HTML' version='1' visible='true' class='pull-right'>
                             <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
