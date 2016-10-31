@@ -24,7 +24,7 @@
         <meta charset='UTF-8'/>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
                 
-        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'/>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
         
         <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet'/>
         
@@ -37,18 +37,9 @@
         <link href='https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/demo/css/normalize.min.css' rel='stylesheet'/>
         <link href='https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/demo/css/animate.min.css' rel='stylesheet'/>
         <link href='http://aqpmedia.com/blogger/clinicamaza/stilos.css' rel='stylesheet'/>
-        
-
-
-
-<link href='https://1.bp.blogspot.com/-H5pM0L_gk5w/WBTYxbrSpbI/AAAAAAAAFqk/g6rW9W3nQJQtWcd9N8XdtYoh6OrQdMMiACLcB/s1600/21.png' rel='shortcut icon' type='image/x-icon'/>
-<link href='https://1.bp.blogspot.com/-H5pM0L_gk5w/WBTYxbrSpbI/AAAAAAAAFqk/g6rW9W3nQJQtWcd9N8XdtYoh6OrQdMMiACLcB/s1600/21.png' rel='icon' type='image/x-icon'/>
-<b:skin><![CDATA[
-
-
-
-
-
+        <link href='https://1.bp.blogspot.com/-H5pM0L_gk5w/WBTYxbrSpbI/AAAAAAAAFqk/g6rW9W3nQJQtWcd9N8XdtYoh6OrQdMMiACLcB/s1600/21.png' rel='shortcut icon' type='image/x-icon'/>
+        <link href='https://1.bp.blogspot.com/-H5pM0L_gk5w/WBTYxbrSpbI/AAAAAAAAFqk/g6rW9W3nQJQtWcd9N8XdtYoh6OrQdMMiACLcB/s1600/21.png' rel='icon' type='image/x-icon'/>
+        <b:skin><![CDATA[
         ]]></b:skin>
         <script type='text/javascript'>            
             var hide_popular=true;            
@@ -104,19 +95,13 @@
         <link href='https://xhrist14n.github.io/sliders_jssor/bower_components/bootstrap/dist/css/bootstrap.css' rel='stylesheet'/>
         <link href='https://xhrist14n.github.io/sliders_video/app/styles/main.css' rel='stylesheet'/>
     </head>
-
-
-
-
     <!--<body>-->
-
-
-
-
-    <body id='home'>
-
-
-
+<style>
+    #wb_ResponsiveMenu1 >ul>li>a{
+        height:49px !important;
+    }
+</style>
+<body id='home'>
 
 
         <header class='header-home' id='top-header'>
@@ -190,17 +175,6 @@
                                         </div>
                                     </b:includable>
                                 <b:includable id='title'>
-
-
-
-
-
-
-
-
-
-
-
                                         <b:if cond='data:blog.url == data:blog.homepageUrl'>
                                             <data:title/>
                                             <b:else/>
@@ -212,7 +186,7 @@
                               </b:widget>
                             </b:section>
                         </div>
-                        <nav class='navigation'>
+                        <nav class='navigation' style='z-index: 2000;'>
                             <input id='nav-button' type='checkbox'/>
                             <label for='nav-button' onclick=''/>
                             <ul class='nav-container'>
@@ -220,123 +194,92 @@
                                     <a href='http://clinicamaza.blogspot.pe/'>
                                         INICIO
                                     </a>
-                                </li>
-
-
-
-								
-								 <li style='font-size:16px;'>
+                                </li>								
+                                <li style='font-size:16px;'>
                                     <a href='http://clinicamaza.blogspot.pe/p/clinica-maza-nosotros-la-clinica-maza.html'>
-                                       NOSOTROS  
+                                        NOSOTROS  
                                     </a>
                                 </li>
-
-
-
-
-							<li style='font-size:16px;'>                                     
+                                <li style='font-size:16px;'>                                     
                                     <a href='#'>
                                         ODONTOLOGIA                                      
                                     </a>
                                     <ul class='sub-menu'>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>
-                                            PROSTODONCIA
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>
+                                                PROSTODONCIA
+                                            </a>
                                         </li>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>
-                                            ESTETICA Y COSMETICA DENTAL
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>
+                                                ESTETICA Y COSMETICA DENTAL
+                                            </a>
                                         </li>
-                                      
-                                     
+
+
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'>
-                                           TRATAMIENTO PERIODONTAL 
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'>
+                                                TRATAMIENTO PERIODONTAL 
+                                            </a>
                                         </li>
 
-										<li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>
-                                          CURACIONES DENTALES ESTETICAS 
-                                          </a>
+                                        <li>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>
+                                                CURACIONES DENTALES ESTETICAS 
+                                            </a>
                                         </li>
 
-						<li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>
+                                        <li>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>
 
-											ORTODONCIA
-                                          </a>
+                                                ORTODONCIA
+                                            </a>
                                         </li>
+                                        <li>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>
+                                                ENDODONCIAS SIN DOLOR
+                                            </a>
+                                        </li>                                 
 
 
-
-										<li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>
-                                           ENDODONCIAS SIN DOLOR
-                                          </a>
-                                        </li>
-
-
-                                    
-
-								
                                     </ul>
                                 </li>
-
-
-
-
-
-
-
-
-
 
                                 <li style='font-size:16px;'>                                     
                                     <a href='#'>
-                                        	MEDICINA                                    
+                                        MEDICINA                                    
                                     </a>
                                     <ul class='sub-menu'>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>
-                                           MEDICINA FAMILIAR Y PREVENTIVA
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>
+                                                MEDICINA FAMILIAR Y PREVENTIVA
+                                            </a>
                                         </li>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>
-                                            CHEQUEO MEDICO BASICO
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>
+                                                CHEQUEO MEDICO BASICO
+                                            </a>
                                         </li>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'>
-                                            CHEQUEO PREVENTIVO DIABETES
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'>
+                                                CHEQUEO PREVENTIVO DIABETES
+                                            </a>
                                         </li>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'>
-                                           CHEQUEO INTEGRAL FEMENINO 
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'>
+                                                CHEQUEO INTEGRAL FEMENINO 
+                                            </a>
                                         </li>
 
-										<li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'>
-                                          CHEQUEO INTEGRAL MASCULINO
-                                          </a>
+                                        <li>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'>
+                                                CHEQUEO INTEGRAL MASCULINO
+                                            </a>
                                         </li>
 
-						
+
                                     </ul>
                                 </li>
-
-
-
-
-
-
-
-
                                 <li style='font-size:16px;'>
                                     <a href='http://clinicamaza.blogspot.pe/#blog'>
                                         GALERIA
@@ -351,16 +294,16 @@
                                     <a href='http://clinicamaza.blogspot.pe/p/contacto.html'>
                                         CONTACTO</a>
                                 </li>
-                                
+
                             </ul>
                         </nav>
-                        
+
                     </div>
                 </div>
             </div>
         </header>
-        
-
+    
+    
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
             
@@ -387,52 +330,148 @@
 
 
 
+<!-- START MENU -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <link href='http://aqpmedia.com/blogger/clinicamaza/index.css' rel='stylesheet'/>
 
+<div id='wb_ResponsiveMenu1' style='position:absolute;left:0px;top:5px;width:100%;height:70px;z-index:1000;margin-bottom:48px;'>
+<label class='toggle' for='ResponsiveMenu1-submenu' id='ResponsiveMenu1-title'>Menu<div id='ResponsiveMenu1-icon'/></label>
+<input id='ResponsiveMenu1-submenu' type='checkbox'/>
+<ul class='ResponsiveMenu1' id='ResponsiveMenu1'>
+<li><a href='http://www.clinicamaza.com/'>INICIO</a></li>
+<li><a href='http://www.clinicamaza.com/p/clinica-maza-nosotros-la-clinica-maza.html'>NOSOTROS</a></li>
+<li>
+<label class='toggle' for='ResponsiveMenu1-submenu-0'>Work<b class='arrow-down'/></label>
+<a href='#'>ODONTOLOGIA<b class='arrow-down'/></a>
+<input id='ResponsiveMenu1-submenu-0' type='checkbox'/>
+<ul>
+<li><a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>PROSTODONCIA </a></li>
+<li><a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>ESTETICA Y COSMETICA DENTAL</a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'> TRATAMIENTO PERIODONTAL </a></li>
+
+
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>CURACIONES DENTALES ESTETICAS </a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>ORTODONCIA</a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>ENDODONCIAS SIN DOLOR</a></li>
+</ul>
+</li>
+
+
+<li>
+<label class='toggle' for='ResponsiveMenu1-submenu-0'>Work<b class='arrow-down'/></label>
+<a href='#'>MEDICINA<b class='arrow-down'/></a>
+<input id='ResponsiveMenu1-submenu-0' type='checkbox'/>
+<ul>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>MEDICINA FAMILIAR Y PREVENTIVA </a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>CHEQUEO MEDICO BASICO</a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'> CHEQUEO PREVENTIVO DIABETES</a></li>
+
+
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'> CHEQUEO INTEGRAL FEMENINO </a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'> CHEQUEO INTEGRAL MASCULINO</a></li>
+</ul>
+</li>
+
+
+
+
+<li><a href='http://clinicamaza.blogspot.pe/#blog'>GALERIA</a></li>
+
+
+<li><a href='http://clinicamaza.blogspot.pe/#team'>STAFF DE PROFESIONALES</a></li>
+<li><a href='http://clinicamaza.blogspot.pe/p/contacto.html'>CONTACTO</a></li>
+
+</ul>
+</div>
+<!-- END MENU -->
+              
         <!--slider jsson-->
                 <div style='min-height: 50px;'>
                     <div id='slider1_container' style='position: relative; top: 0px; left: 0px; width: 1300px;height: 618px;'>
                         <!-- Slides Container -->
                         <div style='cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 618px;overflow: hidden;' u='slides'>
+                            
                             <div>
                                 <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 618px; overflow: hidden;' u='player'>
                                     <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
-                                    <iframe frameborder='0' height='500' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index: 0;' url='http://clinicamaza.com/video/1.mp4?enablejsapi=1&amp;version=1&amp;playerapiid=ytplayer&amp;fs=1&amp;wmode=transparent&amp;rel=0&amp;autoplay=1&amp;' width='1300'/>
+                                    <iframe frameborder='0' height='618' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video.html' width='1300'>
+                                    </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: transparent; background-image: url(); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
-                                        .closeButton { background-image: url(); }
+                                        .closeButton { background-image: url(images/close.png); }
                                         .closeButton:hover { background-position: -30px 0px; }
                                     </style>
-                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: transparent; cursor: pointer; display: none; z-index: 2;' u='close'>
+                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
                                     </div>
                                     <!-- close button end -->
                                 </div>
                             </div>
-                            <div>
-                              <img src2='https://xhrist14n.github.io/sliders_jssor/app/images/dental/one.png' u='image'/>
-                              <div data-t='4' data-u='caption' style='position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: transparent; font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;'>
                                 
-                              </div>
-                            </div>
                             <div>
-                              <img src2='https://xhrist14n.github.io/sliders_jssor/app/images/dental/two.png' u='image'/>
-                              <div data-t='4' data-u='caption' style='position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: transparent; font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;'>
-                                
-                              </div>
+                                <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 618px; overflow: hidden;' u='player'>
+                                    <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
+                                    <iframe frameborder='0' height='500' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video.html' width='1300'>
+                                    </iframe>
+                                    <!-- play cover begin (optional, can remove play cover) -->
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
+                                    <!-- play cover end -->
+                                    <!-- close button begin (optional, can remove close button) -->
+                                    <style>
+                                        .closeButton { background-image: url(images/close.png); }
+                                        .closeButton:hover { background-position: -30px 0px; }
+                                    </style>
+                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
+                                    </div>
+                                    <!-- close button end -->
+                                </div>
                             </div>
+                                
                             <div>
-                              <img src2='https://xhrist14n.github.io/sliders_jssor/app/images/dental/one.png' u='image'/>
-                              <div data-t='4' data-u='caption' style='position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: transparent; font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;'>
-                                
-                              </div>
+                                <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;' u='player'>
+                                    <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
+                                    <iframe frameborder='0' height='500' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video.html' width='1300'>
+                                    </iframe>
+                                    <!-- play cover begin (optional, can remove play cover) -->
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
+                                    <!-- play cover end -->
+                                    <!-- close button begin (optional, can remove close button) -->
+                                    <style>
+                                        .closeButton { background-image: url(images/close.png); }
+                                        .closeButton:hover { background-position: -30px 0px; }
+                                    </style>
+                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
+                                    </div>
+                                    <!-- close button end -->
+                                </div>
                             </div>
+                                
+                            <div>
+                                <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;' u='player'>
+                                    <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
+                                    <iframe frameborder='0' height='500' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video.html' width='1300'>
+                                    </iframe>
+                                    <!-- play cover begin (optional, can remove play cover) -->
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
+                                    <!-- play cover end -->
+                                    <!-- close button begin (optional, can remove close button) -->
+                                    <style>
+                                        .closeButton { background-image: url(images/close.png); }
+                                        .closeButton:hover { background-position: -30px 0px; }
+                                    </style>
+                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
+                                    </div>
+                                    <!-- close button end -->
+                                </div>
+                            </div>
+                                
                         </div>
 
                         <div class='jssorb03' style='position: absolute; bottom: 6px; left: 6px;' u='navigator'>
                         <!-- bullet navigator item prototype -->
-                          <div style='POSITION: absolute; WIDTH: 21px; HEIGHT: 21px; text-align:center; line-height:21px; color:White; font-size:12px;' u='prototype'>
+                          <div style='POSITION: absolute; WIDTH: 21px; HEIGHT: 21px; text-align:center; line-height:21px; color:White; font-size:12px; cursor: pointer;' u='prototype'>
                             <NumberTemplate>
                             </NumberTemplate>
                           </div>
@@ -2791,6 +2830,6 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
         <script src='https://xhrist14n.github.io/sliders_video/bower_components/jquery-slider/js/jssor.utils.js' type='text/javascript'/>
         <script src='https://xhrist14n.github.io/sliders_video/bower_components/jquery-slider/js/jssor.slider.js' type='text/javascript'/>
         <script src='https://xhrist14n.github.io/sliders_video/bower_components/jquery-slider/js/jssor.player.ytiframe.js' type='text/javascript'/>    
-        <script src='https://xhrist14n.github.io/sliders_video/app/scripts/one.js'/>
+        <script src='https://xhrist14n.github.io/sliders_video/app/scripts/videos.js'/>
 </body>
 </html>

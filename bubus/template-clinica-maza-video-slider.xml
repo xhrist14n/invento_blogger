@@ -96,8 +96,12 @@
         <link href='https://xhrist14n.github.io/sliders_video/app/styles/main.css' rel='stylesheet'/>
     </head>
     <!--<body>-->
+<style>
+    #wb_ResponsiveMenu1 >ul>li>a{
+        height:49px !important;
+    }
+</style>
 <body id='home'>
-
 
         <header class='header-home' id='top-header'>
             <div class='grid'>
@@ -105,8 +109,8 @@
                     <div class='content' style='display:flex;justify-content:space-between;align-items:center;'>
                         <div class='logo-wrap'>
                             <b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
-                                <b:widget id='Header1' locked='true' title='CLINICA MASA (Cabecera)' type='Header' version='1' visible='true'>
-                                    <b:includable id='main'>
+                              <b:widget id='Header1' locked='true' title='CLINICA MAZA (Cabecera)' type='Header' version='1' visible='true'>
+                                <b:includable id='main'>
                                         <b:if cond='data:useImage'>
                                             <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
                                                 <!--
@@ -160,7 +164,7 @@
                                             </div>
                                         </b:if>
                                     </b:includable>
-                                    <b:includable id='description'>
+                                <b:includable id='description'>
                                         <div class='descriptionwrapper'>
                                             <p class='description'>
                                                 <span>
@@ -169,7 +173,7 @@
                                             </p>
                                         </div>
                                     </b:includable>
-                                    <b:includable id='title'>
+                                <b:includable id='title'>
                                         <b:if cond='data:blog.url == data:blog.homepageUrl'>
                                             <data:title/>
                                             <b:else/>
@@ -178,10 +182,10 @@
                                             </a>
                                         </b:if>
                                     </b:includable>
-                                </b:widget>
+                              </b:widget>
                             </b:section>
                         </div>
-                        <nav class='navigation' style="z-index:2000;">
+                        <nav class='navigation' style='z-index: 2000;'>
                             <input id='nav-button' type='checkbox'/>
                             <label for='nav-button' onclick=''/>
                             <ul class='nav-container'>
@@ -325,7 +329,61 @@
 
 
 
+<!-- START MENU -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <link href='http://aqpmedia.com/blogger/clinicamaza/index.css' rel='stylesheet'/>
 
+<div id='wb_ResponsiveMenu1' style='position:absolute;left:0px;top:5px;width:100%;height:70px;z-index:1000;margin-bottom:48px;'>
+<label class='toggle' for='ResponsiveMenu1-submenu' id='ResponsiveMenu1-title'>Menu<div id='ResponsiveMenu1-icon'/></label>
+<input id='ResponsiveMenu1-submenu' type='checkbox'/>
+<ul class='ResponsiveMenu1' id='ResponsiveMenu1'>
+<li><a href='http://www.clinicamaza.com/'>INICIO</a></li>
+<li><a href='http://www.clinicamaza.com/p/clinica-maza-nosotros-la-clinica-maza.html'>NOSOTROS</a></li>
+<li>
+<label class='toggle' for='ResponsiveMenu1-submenu-0'>Work<b class='arrow-down'/></label>
+<a href='#'>ODONTOLOGIA<b class='arrow-down'/></a>
+<input id='ResponsiveMenu1-submenu-0' type='checkbox'/>
+<ul>
+<li><a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>PROSTODONCIA </a></li>
+<li><a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>ESTETICA Y COSMETICA DENTAL</a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'> TRATAMIENTO PERIODONTAL </a></li>
+
+
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>CURACIONES DENTALES ESTETICAS </a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>ORTODONCIA</a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>ENDODONCIAS SIN DOLOR</a></li>
+</ul>
+</li>
+
+
+<li>
+<label class='toggle' for='ResponsiveMenu1-submenu-0'>Work<b class='arrow-down'/></label>
+<a href='#'>MEDICINA<b class='arrow-down'/></a>
+<input id='ResponsiveMenu1-submenu-0' type='checkbox'/>
+<ul>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>MEDICINA FAMILIAR Y PREVENTIVA </a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>CHEQUEO MEDICO BASICO</a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'> CHEQUEO PREVENTIVO DIABETES</a></li>
+
+
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'> CHEQUEO INTEGRAL FEMENINO </a></li>
+<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'> CHEQUEO INTEGRAL MASCULINO</a></li>
+</ul>
+</li>
+
+
+
+
+<li><a href='http://clinicamaza.blogspot.pe/#blog'>GALERIA</a></li>
+
+
+<li><a href='http://clinicamaza.blogspot.pe/#team'>STAFF DE PROFESIONALES</a></li>
+<li><a href='http://clinicamaza.blogspot.pe/p/contacto.html'>CONTACTO</a></li>
+
+</ul>
+</div>
+<!-- END MENU -->
+              
         <!--slider jsson-->
                 <div style='min-height: 50px;'>
                     <div id='slider1_container' style='position: relative; top: 0px; left: 0px; width: 1300px;height: 618px;'>
@@ -333,112 +391,76 @@
                         <div style='cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 618px;overflow: hidden;' u='slides'>
                             
                             <div>
-                                <div u="player" style="position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                                <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 618px; overflow: hidden;' u='player'>
                                     <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
-                                    <iframe 
-                                        pHandler="ytiframe" 
-                                        pHideControls="0" 
-                                        width="1300" 
-                                        height="500" 
-                                        url="https://xhrist14n.github.io/sliders_video/app/video.html"
-                                        frameborder="0"
-                                        scrolling="no"
-                                        >
+                                    <iframe frameborder='0' height='618' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video.html' width='1300'>
                                     </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div u="cover" class="videoCover" style="position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;"></div>
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
                                         .closeButton { background-image: url(images/close.png); }
                                         .closeButton:hover { background-position: -30px 0px; }
                                     </style>
-                                    <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
-                                        width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
+                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
                                     </div>
                                     <!-- close button end -->
                                 </div>
                             </div>
                                 
                             <div>
-                                <div u="player" style="position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                                <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 618px; overflow: hidden;' u='player'>
                                     <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
-                                    <iframe 
-                                        pHandler="ytiframe" 
-                                        pHideControls="0" 
-                                        width="1300" 
-                                        height="500"                                         
-                                        url="https://xhrist14n.github.io/sliders_video/app/video.html"
-                                        frameborder="0"
-                                        scrolling="no"
-                                        >
+                                    <iframe frameborder='0' height='500' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video_no_play.html' width='1300'>
                                     </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div u="cover" class="videoCover" style="position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;"></div>
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
                                         .closeButton { background-image: url(images/close.png); }
                                         .closeButton:hover { background-position: -30px 0px; }
                                     </style>
-                                    <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
-                                        width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
+                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
                                     </div>
                                     <!-- close button end -->
                                 </div>
                             </div>
                                 
                             <div>
-                                <div u="player" style="position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                                <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;' u='player'>
                                     <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
-                                    <iframe 
-                                        pHandler="ytiframe" 
-                                        pHideControls="0" 
-                                        width="1300" 
-                                        height="500" 
-                                        url="https://xhrist14n.github.io/sliders_video/app/video.html"
-                                        frameborder="0"
-                                        scrolling="no"
-                                        >
+                                    <iframe frameborder='0' height='500' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video_no_play.html' width='1300'>
                                     </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div u="cover" class="videoCover" style="position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;"></div>
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
                                         .closeButton { background-image: url(images/close.png); }
                                         .closeButton:hover { background-position: -30px 0px; }
                                     </style>
-                                    <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
-                                        width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
+                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
                                     </div>
                                     <!-- close button end -->
                                 </div>
                             </div>
                                 
                             <div>
-                                <div u="player" style="position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                                <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;' u='player'>
                                     <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
-                                    <iframe 
-                                        pHandler="ytiframe" 
-                                        pHideControls="0" 
-                                        width="1300" 
-                                        height="500"                                         
-                                        url="https://xhrist14n.github.io/sliders_video/app/video.html"
-                                        frameborder="0"
-                                        scrolling="no"
-                                        >
+                                    <iframe frameborder='0' height='500' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video_no_play.html' width='1300'>
                                     </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div u="cover" class="videoCover" style="position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;"></div>
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
                                         .closeButton { background-image: url(images/close.png); }
                                         .closeButton:hover { background-position: -30px 0px; }
                                     </style>
-                                    <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
-                                        width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
+                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
                                     </div>
                                     <!-- close button end -->
                                 </div>
