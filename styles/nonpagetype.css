@@ -10,3 +10,7 @@
 .header-home .navigation a {
     color: #000000;
 }
+
+.navigation .sub-menu a{
+    color: #ffffff;
+}
