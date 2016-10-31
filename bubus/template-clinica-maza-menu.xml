@@ -24,7 +24,7 @@
         <meta charset='UTF-8'/>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
                 
-        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>s
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
         
         <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet'/>
         
@@ -605,7 +605,7 @@
                                 <div class='service-entry'>
                                     <!-- OUR SERVICES H3 -->
                                     <h3>PROTESIS</h3>
-                                    <!-- OUR SERVICES Paragraph -->
+                                    <!-- OUR SERVICES    Paragraph -->
                                     <p>
 
 										Una prótesis dental es un elemento artificial destinado a restaurar la anatomía de una o varias piezas 											dentarias, restaurando también la relación entre los maxilares, a la vez que devuelve la dimensión 											vertical, y repone los dientes.
