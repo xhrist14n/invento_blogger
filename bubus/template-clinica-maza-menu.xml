@@ -24,12 +24,12 @@
         <meta charset='UTF-8'/>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
                 
-        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>s
         
         <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet'/>
         
         <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp' rel='stylesheet'/>
-        
+         <link href='https://xhrist14n.github.io/menus_boostrap/app/styles/main.css' rel='stylesheet'/>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'/>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
@@ -97,11 +97,12 @@
     </head>
     <!--<body>-->
 <style>
-    #wb_ResponsiveMenu1 >ul>li>a{
+    #wb_ResponsiveMenu1 &gt;ul&gt;li&gt;a{
         height:49px !important;
     }
 </style>
 <body id='home'>
+	
 
         <header class='header-home' id='top-header'>
             <div class='grid'>
@@ -330,62 +331,154 @@
 
 
 <!-- START MENU -->
-<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
-  <link href='http://aqpmedia.com/blogger/clinicamaza/index.css' rel='stylesheet'/>
 
-<div id='wb_ResponsiveMenu1' style='position:absolute;left:0px;top:5px;width:100%;height:70px;z-index:1000;margin-bottom:48px;'>
-<label class='toggle' for='ResponsiveMenu1-submenu' id='ResponsiveMenu1-title'>Menu<div id='ResponsiveMenu1-icon'/></label>
-<input id='ResponsiveMenu1-submenu' type='checkbox'/>
-<ul class='ResponsiveMenu1' id='ResponsiveMenu1'>
-<li><a href='http://www.clinicamaza.com/'>INICIO</a></li>
-<li><a href='http://www.clinicamaza.com/p/clinica-maza-nosotros-la-clinica-maza.html'>NOSOTROS</a></li>
-<li>
-<label class='toggle' for='ResponsiveMenu1-submenu-0'>Work<b class='arrow-down'/></label>
-<a href='#'>ODONTOLOGIA<b class='arrow-down'/></a>
-<input id='ResponsiveMenu1-submenu-0' type='checkbox'/>
-<ul>
-<li><a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>PROSTODONCIA </a></li>
-<li><a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>ESTETICA Y COSMETICA DENTAL</a></li>
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'> TRATAMIENTO PERIODONTAL </a></li>
-
-
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>CURACIONES DENTALES ESTETICAS </a></li>
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>ORTODONCIA</a></li>
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>ENDODONCIAS SIN DOLOR</a></li>
-</ul>
-</li>
-
-
-<li>
-<label class='toggle' for='ResponsiveMenu1-submenu-0'>Work<b class='arrow-down'/></label>
-<a href='#'>MEDICINA<b class='arrow-down'/></a>
-<input id='ResponsiveMenu1-submenu-0' type='checkbox'/>
-<ul>
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>MEDICINA FAMILIAR Y PREVENTIVA </a></li>
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>CHEQUEO MEDICO BASICO</a></li>
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'> CHEQUEO PREVENTIVO DIABETES</a></li>
-
-
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'> CHEQUEO INTEGRAL FEMENINO </a></li>
-<li><a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'> CHEQUEO INTEGRAL MASCULINO</a></li>
-</ul>
-</li>
+    <!-- menu  init -->
+    <nav class='navbar navbar-blue' data-offset-top='197' data-spy='affix' style='z-index:1000;'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'/>
+            <span class='icon-bar'/>
+            <span class='icon-bar'/>
+          </button>
+          <a class='navbar-brand' href='#'>
+			<img src='https://2.bp.blogspot.com/-VOj-WinVDh0/WBOSu0J1GhI/AAAAAAAAFnA/Eixs5KWyh042XFbqNtJr08MlndKIYBQBwCLcB/s320/LOGO%2BLARGO.png' style='position:absolute; height:49px;'/>
+		  </a>
+        </div>
+        <div class='navbar-collapse collapse' id='navbar'>
+          <ul class='nav navbar-nav navbar-right'>
+            <li class='active'>
+              <a href='http://clinicamaza.blogspot.pe/'>
+                INICIO
+              </a>
+            </li>
+            <li>
+              <a href='http://clinicamaza.blogspot.pe/p/clinica-maza-nosotros-la-clinica-maza.html'>
+                NOSOTROS
+              </a>
+            </li>
 
 
 
 
-<li><a href='http://clinicamaza.blogspot.pe/#blog'>GALERIA</a></li>
+
+            <li class='dropdown'>
+              <a aria-expanded='false' aria-haspopup='true' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+              ODONTOLOGIA
+              <span class='caret'>
+              </span>
+            </a>
+            <ul class='dropdown-menu'>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>
+                  PROSTODONCIA
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>
+                  ESTETICA Y COSMETICA DENTAL
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'>
+                  TRATAMIENTO PERIODONTAL 
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>
+                   CURACIONES DENTALES ESTETICAS  
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>
+                  ORTODONCIA
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>
+                   ENDODONCIAS SIN DOLOR 
+                </a>
+              </li>
 
 
-<li><a href='http://clinicamaza.blogspot.pe/#team'>STAFF DE PROFESIONALES</a></li>
-<li><a href='http://clinicamaza.blogspot.pe/p/contacto.html'>CONTACTO</a></li>
+            </ul>
+          </li>
 
-</ul>
-</div>
+
+
+
+
+
+
+            <li class='dropdown'>
+              <a aria-expanded='false' aria-haspopup='true' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+              MEDICINA
+              <span class='caret'>
+              </span>
+            </a>
+            <ul class='dropdown-menu'>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>
+                   MEDICINA FAMILIAR Y PREVENTIVA
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>
+                  CHEQUEO MEDICO BASICO
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'>
+                 CHEQUEO PREVENTIVO DIABETES
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'>
+                   CHEQUEO INTEGRAL FEMENINO   
+                </a>
+              </li>
+              <li>
+                <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'>
+                  CHEQUEO INTEGRAL MASCULINO
+                </a>
+              </li>
+              
+
+
+            </ul>
+          </li>
+
+
+
+
+
+
+            <li>
+              <a href='http://clinicamaza.blogspot.pe/p/contacto.html'>
+                CONTACTO
+              </a>
+            </li>
+
+          
+         
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  <!-- menu  end -->
+
 <!-- END MENU -->
               
+
+
+
+
+
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+
         <!--slider jsson-->
-                <div style='min-height: 50px;margin-top:45px;'>
+                <div style='min-height: 50px; margin-top:-50px;'>
                     <div id='slider1_container' style='position: relative; top: 0px; left: 0px; width: 1300px;height: 618px;'>
                         <!-- Slides Container -->
                         <div style='cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 618px;overflow: hidden;' u='slides'>
@@ -396,7 +489,6 @@
                                     <iframe frameborder='0' height='618' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video.html' width='1300'>
                                     </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; cursor: pointer; display: none; z-index: 1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
@@ -415,7 +507,7 @@
                                     <iframe frameborder='0' height='618' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video_no_play.html' width='1300'>
                                     </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; cursor: pointer; display: none; z-index: 1;' u='cover'/>
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; cursor: pointer; display: none; z-index: -1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
@@ -434,7 +526,7 @@
                                     <iframe frameborder='0' height='618' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video_no_play.html' width='1300'>
                                     </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat;  cursor: pointer; display: none; z-index: 1;' u='cover'/>
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat;  cursor: pointer; display: none; z-index: -1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
@@ -453,7 +545,7 @@
                                     <iframe frameborder='0' height='618' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index:0;' url='https://xhrist14n.github.io/sliders_video/app/video_no_play.html' width='1300'>
                                     </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; cursor: pointer; display: none; z-index: 1;' u='cover'/>
+                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; cursor: pointer; display: none; z-index: -1;' u='cover'/>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
@@ -481,6 +573,7 @@
 
 
 
+</b:if>
 
 
                 <!--end slider jsson-->
@@ -643,8 +736,21 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
 
 
 
-
-        <div background='https://static.vecteezy.com/system/resources/previews/000/101/241/original/free-abstract-background-4-vector.jpg' class='wrap grey recent-wrap' id='work'>
+		<style>
+		.recent-wrap{
+			background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+			background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+			background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#a6000000&#39;, endColorstr=&#39;#00000000&#39;,GradientType=0 ); 
+			background: url(&#39;https://2.bp.blogspot.com/-8bdM-SWOgYY/WBfGBB4Qj8I/AAAAAAAAFtE/PaxLdfjV7jYp8aGkWI92HLjYr-M2Tjg2gCLcB/s1600/azul.jpg&#39;) no-repeat center center fixed;  
+			-webkit-background-size: cover;  
+			-moz-background-size: cover;  
+			-o-background-size: cover;  
+			background-size: cover;
+			
+		}
+		</style>
+        <div class='wrap grey recent-wrap' id='work'>
             <div class='grid grid-pad'>
 
                 <b:if cond='data:blog.pageType != &quot;item&quot;'>
