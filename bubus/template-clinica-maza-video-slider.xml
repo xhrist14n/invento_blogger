@@ -26,9 +26,9 @@
                 
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
         
-        <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet' />
+        <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet'/>
         
-        <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp' rel='stylesheet' />
+        <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp' rel='stylesheet'/>
         
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'/>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
@@ -37,33 +37,44 @@
         <link href='https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/demo/css/normalize.min.css' rel='stylesheet'/>
         <link href='https://xhrist14n.github.io/invento_blogger/libs/animatedModal.js-master/demo/css/animate.min.css' rel='stylesheet'/>
         <link href='http://aqpmedia.com/blogger/clinicamaza/stilos.css' rel='stylesheet'/>
+        <link href='https://1.bp.blogspot.com/-H5pM0L_gk5w/WBTYxbrSpbI/AAAAAAAAFqk/g6rW9W3nQJQtWcd9N8XdtYoh6OrQdMMiACLcB/s1600/21.png' rel='shortcut icon' type='image/x-icon'/>
+        <link href='https://1.bp.blogspot.com/-H5pM0L_gk5w/WBTYxbrSpbI/AAAAAAAAFqk/g6rW9W3nQJQtWcd9N8XdtYoh6OrQdMMiACLcB/s1600/21.png' rel='icon' type='image/x-icon'/>
         <b:skin><![CDATA[
         ]]></b:skin>
-                <b:if cond='data:blog.pageType != &quot;item&quot;'>
-            <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-                <link href='https://xhrist14n.github.io/invento_blogger/styles/nonpagetype.css' rel='stylesheet'/>
-            </b:if>
-            <script type='text/javascript'>
+        <script type='text/javascript'>            
+            var hide_popular=true;            
+         </script> 
+		<b:if cond='data:blog.pageType != &quot;item&quot;'>           
+  			<script type='text/javascript'>
             /*<![CDATA[*/
-            hide_popular=true;
+            hide_popular=false;
             /*]]>;*/
             </script>            
         </b:if>
         <b:if cond='data:blog.pageType == &quot;item&quot;'>            
-            <link href='https://xhrist14n.github.io/invento_blogger/styles/pagetype.css' rel='stylesheet'/>            
             <script type='text/javascript'>
             /*<![CDATA[*/
-            hide_popular=true;
+            hide_popular=false;
             /*]]>;*/
             </script>            
         </b:if>
         <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
-            <link href='https://xhrist14n.github.io/invento_blogger/styles/static_page.css' rel='stylesheet'/>
             <script type='text/javascript'>
             /*<![CDATA[*/
-            hide_popular=true;
+            hide_popular=false;
             /*]]>;*/
             </script>            
+        </b:if>
+        <b:if cond='data:blog.pageType != &quot;item&quot;'>
+            <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                <link href='https://xhrist14n.github.io/invento_blogger/styles/nonpagetype.css' rel='stylesheet'/>
+            </b:if>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>            
+            <link href='https://xhrist14n.github.io/invento_blogger/styles/pagetype.css' rel='stylesheet'/>            
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+            <link href='https://xhrist14n.github.io/invento_blogger/styles/static_page.css' rel='stylesheet'/>
         </b:if>
         <!-- Style For Page End -->
         <script type='text/javascript'>
@@ -85,16 +96,17 @@
         <link href='https://xhrist14n.github.io/sliders_video/app/styles/main.css' rel='stylesheet'/>
     </head>
     <!--<body>-->
-    <body id='home'>
-        
+<body id='home'>
+
+
         <header class='header-home' id='top-header'>
             <div class='grid'>
                 <div class='col-1-1'>
                     <div class='content' style='display:flex;justify-content:space-between;align-items:center;'>
                         <div class='logo-wrap'>
                             <b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
-                              <b:widget id='Header1' locked='true' title='CLINICA MASA (Cabecera)' type='Header' version='1' visible='true'>
-                                <b:includable id='main'>
+                                <b:widget id='Header1' locked='true' title='CLINICA MASA (Cabecera)' type='Header' version='1' visible='true'>
+                                    <b:includable id='main'>
                                         <b:if cond='data:useImage'>
                                             <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
                                                 <!--
@@ -148,7 +160,7 @@
                                             </div>
                                         </b:if>
                                     </b:includable>
-                                <b:includable id='description'>
+                                    <b:includable id='description'>
                                         <div class='descriptionwrapper'>
                                             <p class='description'>
                                                 <span>
@@ -157,7 +169,7 @@
                                             </p>
                                         </div>
                                     </b:includable>
-                                <b:includable id='title'>
+                                    <b:includable id='title'>
                                         <b:if cond='data:blog.url == data:blog.homepageUrl'>
                                             <data:title/>
                                             <b:else/>
@@ -166,10 +178,10 @@
                                             </a>
                                         </b:if>
                                     </b:includable>
-                              </b:widget>
+                                </b:widget>
                             </b:section>
                         </div>
-                        <nav class='navigation'>
+                        <nav class='navigation' style="z-index:2000;">
                             <input id='nav-button' type='checkbox'/>
                             <label for='nav-button' onclick=''/>
                             <ul class='nav-container'>
@@ -177,123 +189,92 @@
                                     <a href='http://clinicamaza.blogspot.pe/'>
                                         INICIO
                                     </a>
-                                </li>
-
-
-
-								
-								 <li style='font-size:16px;'>
+                                </li>								
+                                <li style='font-size:16px;'>
                                     <a href='http://clinicamaza.blogspot.pe/p/clinica-maza-nosotros-la-clinica-maza.html'>
-                                       NOSOTROS  
+                                        NOSOTROS  
                                     </a>
                                 </li>
-
-
-
-
-							<li style='font-size:16px;'>                                     
+                                <li style='font-size:16px;'>                                     
                                     <a href='#'>
                                         ODONTOLOGIA                                      
                                     </a>
                                     <ul class='sub-menu'>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>
-                                            PROSTODONCIA
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>
+                                                PROSTODONCIA
+                                            </a>
                                         </li>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>
-                                            ESTETICA Y COSMETICA DENTAL
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>
+                                                ESTETICA Y COSMETICA DENTAL
+                                            </a>
                                         </li>
-                                      
-                                     
+
+
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'>
-                                           TRATAMIENTO PERIODONTAL 
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'>
+                                                TRATAMIENTO PERIODONTAL 
+                                            </a>
                                         </li>
 
-										<li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>
-                                          CURACIONES DENTALES ESTETICAS 
-                                          </a>
+                                        <li>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>
+                                                CURACIONES DENTALES ESTETICAS 
+                                            </a>
                                         </li>
 
-						<li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>
+                                        <li>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>
 
-											ORTODONCIA
-                                          </a>
+                                                ORTODONCIA
+                                            </a>
                                         </li>
+                                        <li>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>
+                                                ENDODONCIAS SIN DOLOR
+                                            </a>
+                                        </li>                                 
 
 
-
-										<li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>
-                                           ENDODONCIAS SIN DOLOR
-                                          </a>
-                                        </li>
-
-
-                                    
-
-								
                                     </ul>
                                 </li>
-
-
-
-
-
-
-
-
-
 
                                 <li style='font-size:16px;'>                                     
                                     <a href='#'>
-                                        	MEDICINA                                    
+                                        MEDICINA                                    
                                     </a>
                                     <ul class='sub-menu'>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>
-                                           MEDICINA FAMILIAR Y PREVENTIVA
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>
+                                                MEDICINA FAMILIAR Y PREVENTIVA
+                                            </a>
                                         </li>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>
-                                            CHEQUEO MEDICO BASICO
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>
+                                                CHEQUEO MEDICO BASICO
+                                            </a>
                                         </li>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'>
-                                            CHEQUEO PREVENTIVO DIABETES
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'>
+                                                CHEQUEO PREVENTIVO DIABETES
+                                            </a>
                                         </li>
                                         <li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'>
-                                           CHEQUEO INTEGRAL FEMENINO 
-                                          </a>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'>
+                                                CHEQUEO INTEGRAL FEMENINO 
+                                            </a>
                                         </li>
 
-										<li>
-                                          <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'>
-                                          CHEQUEO INTEGRAL MASCULINO
-                                          </a>
+                                        <li>
+                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'>
+                                                CHEQUEO INTEGRAL MASCULINO
+                                            </a>
                                         </li>
 
-						
+
                                     </ul>
                                 </li>
-
-
-
-
-
-
-
-
                                 <li style='font-size:16px;'>
                                     <a href='http://clinicamaza.blogspot.pe/#blog'>
                                         GALERIA
@@ -308,16 +289,16 @@
                                     <a href='http://clinicamaza.blogspot.pe/p/contacto.html'>
                                         CONTACTO</a>
                                 </li>
-                                
+
                             </ul>
                         </nav>
-                        
+
                     </div>
                 </div>
             </div>
         </header>
-        
-
+    
+    
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
             
@@ -344,52 +325,130 @@
 
 
 
-<b:if cond='data:blog.url == data:blog.homepageUrl'>
+
         <!--slider jsson-->
                 <div style='min-height: 50px;'>
                     <div id='slider1_container' style='position: relative; top: 0px; left: 0px; width: 1300px;height: 618px;'>
                         <!-- Slides Container -->
                         <div style='cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 618px;overflow: hidden;' u='slides'>
+                            
                             <div>
-                                <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 618px; overflow: hidden;' u='player'>
+                                <div u="player" style="position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                                     <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
-                                    <iframe frameborder='0' height='500' pHandler='ytiframe' pHideControls='0' scrolling='no' style='z-index: 0;' url='https://www.youtube.com/embed/q0_GXYT-j94?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer&amp;fs=1&amp;wmode=transparent&amp;rel=0&amp;autoplay=1&amp;' width='1300'/>
+                                    <iframe 
+                                        pHandler="ytiframe" 
+                                        pHideControls="0" 
+                                        width="1300" 
+                                        height="500" 
+                                        url="https://xhrist14n.github.io/sliders_video/app/video.html"
+                                        frameborder="0"
+                                        scrolling="no"
+                                        >
+                                    </iframe>
                                     <!-- play cover begin (optional, can remove play cover) -->
-                                    <div class='videoCover' style='position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;' u='cover'/>
+                                    <div u="cover" class="videoCover" style="position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;"></div>
                                     <!-- play cover end -->
                                     <!-- close button begin (optional, can remove close button) -->
                                     <style>
                                         .closeButton { background-image: url(images/close.png); }
                                         .closeButton:hover { background-position: -30px 0px; }
                                     </style>
-                                    <div class='closeButton' style='position: absolute; top: 0px; right: 1px;                                         width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;' u='close'>
+                                    <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
+                                        width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
                                     </div>
                                     <!-- close button end -->
                                 </div>
                             </div>
+                                
                             <div>
-                              <img src2='https://xhrist14n.github.io/sliders_jssor/app/images/dental/one.png' u='image'/>
-                              <div data-t='4' data-u='caption' style='position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(39,124,145, 0.35); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;'>
-                                image, text, and custom layers
-                              </div>
+                                <div u="player" style="position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                                    <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
+                                    <iframe 
+                                        pHandler="ytiframe" 
+                                        pHideControls="0" 
+                                        width="1300" 
+                                        height="500"                                         
+                                        url="https://xhrist14n.github.io/sliders_video/app/video.html"
+                                        frameborder="0"
+                                        scrolling="no"
+                                        >
+                                    </iframe>
+                                    <!-- play cover begin (optional, can remove play cover) -->
+                                    <div u="cover" class="videoCover" style="position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;"></div>
+                                    <!-- play cover end -->
+                                    <!-- close button begin (optional, can remove close button) -->
+                                    <style>
+                                        .closeButton { background-image: url(images/close.png); }
+                                        .closeButton:hover { background-position: -30px 0px; }
+                                    </style>
+                                    <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
+                                        width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
+                                    </div>
+                                    <!-- close button end -->
+                                </div>
                             </div>
+                                
                             <div>
-                              <img src2='https://xhrist14n.github.io/sliders_jssor/app/images/dental/two.png' u='image'/>
-                              <div data-t='4' data-u='caption' style='position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(39,124,145, 0.35); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;'>
-                                image, text, and custom layers
-                              </div>
+                                <div u="player" style="position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                                    <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
+                                    <iframe 
+                                        pHandler="ytiframe" 
+                                        pHideControls="0" 
+                                        width="1300" 
+                                        height="500" 
+                                        url="https://xhrist14n.github.io/sliders_video/app/video.html"
+                                        frameborder="0"
+                                        scrolling="no"
+                                        >
+                                    </iframe>
+                                    <!-- play cover begin (optional, can remove play cover) -->
+                                    <div u="cover" class="videoCover" style="position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;"></div>
+                                    <!-- play cover end -->
+                                    <!-- close button begin (optional, can remove close button) -->
+                                    <style>
+                                        .closeButton { background-image: url(images/close.png); }
+                                        .closeButton:hover { background-position: -30px 0px; }
+                                    </style>
+                                    <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
+                                        width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
+                                    </div>
+                                    <!-- close button end -->
+                                </div>
                             </div>
+                                
                             <div>
-                              <img src2='https://xhrist14n.github.io/sliders_jssor/app/images/dental/one.png' u='image'/>
-                              <div data-t='4' data-u='caption' style='position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(39,124,145, 0.35); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;'>
-                                image, text, and custom layers
-                              </div>
+                                <div u="player" style="position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                                    <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
+                                    <iframe 
+                                        pHandler="ytiframe" 
+                                        pHideControls="0" 
+                                        width="1300" 
+                                        height="500"                                         
+                                        url="https://xhrist14n.github.io/sliders_video/app/video.html"
+                                        frameborder="0"
+                                        scrolling="no"
+                                        >
+                                    </iframe>
+                                    <!-- play cover begin (optional, can remove play cover) -->
+                                    <div u="cover" class="videoCover" style="position: absolute; top: 0px; left: 0px; background-color: #000; background-image: url(images/play.png); background-position: center center; background-repeat: no-repeat; filter: alpha(opacity=40); opacity: .4; cursor: pointer; display: none; z-index: 1;"></div>
+                                    <!-- play cover end -->
+                                    <!-- close button begin (optional, can remove close button) -->
+                                    <style>
+                                        .closeButton { background-image: url(images/close.png); }
+                                        .closeButton:hover { background-position: -30px 0px; }
+                                    </style>
+                                    <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
+                                        width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
+                                    </div>
+                                    <!-- close button end -->
+                                </div>
                             </div>
+                                
                         </div>
 
                         <div class='jssorb03' style='position: absolute; bottom: 6px; left: 6px;' u='navigator'>
                         <!-- bullet navigator item prototype -->
-                          <div style='POSITION: absolute; WIDTH: 21px; HEIGHT: 21px; text-align:center; line-height:21px; color:White; font-size:12px;' u='prototype'>
+                          <div style='POSITION: absolute; WIDTH: 21px; HEIGHT: 21px; text-align:center; line-height:21px; color:White; font-size:12px; cursor: pointer;' u='prototype'>
                             <NumberTemplate>
                             </NumberTemplate>
                           </div>
@@ -411,7 +470,7 @@
                 
                 
             </b:if>
-        </b:if>
+       
 
         <b:if cond='data:blog.pageType != &quot;item&quot;'>
             <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
@@ -563,7 +622,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
 
 
 
-        <div class='wrap grey recent-wrap' id='work'>
+        <div background='https://static.vecteezy.com/system/resources/previews/000/101/241/original/free-abstract-background-4-vector.jpg' class='wrap grey recent-wrap' id='work'>
             <div class='grid grid-pad'>
 
                 <b:if cond='data:blog.pageType != &quot;item&quot;'>
@@ -1705,49 +1764,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                             </div><!-- /main-wrapper -->
                             <div class='sidebar-wrapper'>
                                 <b:section class='sidebar' id='sidebar' showaddelement='yes'>
-                                  <b:widget id='PopularPosts1' locked='false' title='Entradas populares' type='PopularPosts' visible='true'>
-                                    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
-  <div class='widget-content popular-posts'>
-    <ul>
-      <b:loop values='data:posts' var='post'>
-      <li>
-        <b:if cond='!data:showThumbnails'>
-          <b:if cond='!data:showSnippets'>
-            <!-- (1) No snippet/thumbnail -->
-            <a expr:href='data:post.href'><data:post.title/></a>
-          <b:else/>
-            <!-- (2) Show only snippets -->
-            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-            <div class='item-snippet'><data:post.snippet/></div>
-          </b:if>
-        <b:else/>
-          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
-          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
-            <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
-              <div class='item-thumbnail'>
-                <a expr:href='data:post.href' target='_blank'>
-                  <b:with value='data:post.featuredImage.isResizable                                  ? resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)                                  : data:post.thumbnail' var='image'>
-                    <img alt='' border='0' expr:src='data:image'/>
-                  </b:with>
-                </a>
-              </div>
-            </b:if>
-            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-            <b:if cond='data:showSnippets'>
-              <div class='item-snippet'><data:post.snippet/></div>
-            </b:if>
-          </div>
-          <div style='clear: both;'/>
-        </b:if>
-      </li>
-      </b:loop>
-    </ul>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-                                  </b:widget>
-                                  <b:widget id='HTML3' locked='false' title='' type='HTML' visible='true'>
+                                  <b:widget id='HTML3' locked='false' title='FACEBOOK' type='HTML' visible='true'>
                                     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -1869,7 +1886,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <img class='img-rounded img-responsive modalize' src='https://1.bp.blogspot.com/-_ghuDw7WzXM/WBD0YtClokI/AAAAAAAAFfc/aw1qwF2lPHAL6v-7d-6BsSMnBRaVN2jOwCLcB/s320/IMG_2762.JPG' width='90%'/>
                                                 <h4>
                                                     <a href='#'>
-                                                        Uno
+                                                        
                                                     </a>
                                                 </h4>
                                             </div>
@@ -1879,7 +1896,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <img class='img-rounded img-responsive modalize' src='https://1.bp.blogspot.com/-r63GmMD6HVA/WBDzhgg9yyI/AAAAAAAAFfQ/uxhSmle8E90TNdAR4g_cd23Or1Xt-oqWgCLcB/s1600/IMG_0586.JPG' width='90%'/>
                                                 <h4>
                                                     <a href='#'>
-                                                        Dos
+                                                        
                                                     </a>
                                                 </h4>
                                             </div>
@@ -1889,7 +1906,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <img class='img-rounded img-responsive modalize' src='https://2.bp.blogspot.com/-h-GMi7f0bIU/WBDz9FpCJfI/AAAAAAAAFfU/dDvLSOs20f0U4Rd-FpmgAVhpZgMA_mQSgCLcB/s1600/IMG_0541%2B%25281%2529.JPG' width='90%'/>
                                                 <h4>
                                                     <a href='#'>
-                                                        Tres
+                                                        
                                                     </a>
                                                 </h4>
                                             </div>
@@ -1899,7 +1916,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <img class='img-rounded img-responsive modalize' src='https://4.bp.blogspot.com/-WHUEmD5bgTU/WBD0ihcSKQI/AAAAAAAAFfg/Jq2RbcWV2wU_NeSv0vmTiNgqV8eZJV1TACLcB/s1600/IMG_2717.JPG' width='90%'/>
                                                 <h4>
                                                     <a href='#'>
-                                                        Cuatro
+                                                        
                                                     </a>
                                                 </h4>
                                             </div>
@@ -1912,7 +1929,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <img class='img-rounded img-responsive modalize' src='https://1.bp.blogspot.com/-t7D5L-AJwzo/WBDNVQEQDDI/AAAAAAAAFbY/J6iin6I9RLErtYQ73p0SmClhuUlp6KbegCLcB/s320/IMG_3008.JPG' width='90%'/>
                                                 <h4>
                                                     <a href='#'>
-                                                        Cinco
+                                                        
                                                     </a>
                                                 </h4>
                                             </div>
@@ -1922,7 +1939,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <img class='img-rounded img-responsive modalize' src='https://2.bp.blogspot.com/-Vw3lDBSHKm8/WBDt81Y25VI/AAAAAAAAFeQ/ST7YrWxS2cAyuQjIL8Sffhk1CCobyu2sQCLcB/s1600/IMG_3014.JPG' width='90%'/>
                                                 <h4>
                                                     <a href='#'>
-                                                        Seis
+                                                        
                                                     </a>
                                                 </h4>
                                             </div>                                            
@@ -1932,7 +1949,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <img class='img-rounded img-responsive modalize' src='https://1.bp.blogspot.com/-Zll89NO7Lpg/WBDt9LnoyfI/AAAAAAAAFeU/rZIdwgOgCdA9nDiB0OUNgMDJ86ON4L9rACLcB/s1600/IMG_0478.JPG' width='90%'/>
                                                 <h4>
                                                     <a href='#'>
-                                                        Siete
+                                                        
                                                     </a>
                                                 </h4>
                                             </div>
@@ -1947,7 +1964,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <img class='img-rounded img-responsive modalize' src='https://2.bp.blogspot.com/-jlaMC-Xq-Bo/WBDuIE9xj7I/AAAAAAAAFeY/Vh2Gx2KV7qovpkvdvhi_PNUCH-CXEKH1gCLcB/s1600/IMG_0641.JPG' width='90%'/>
                                                 <h4>
                                                     <a href='#'>
-                                                        Ocho
+                                                        
                                                     </a>
                                                 </h4>
                                             </div>
@@ -1980,9 +1997,9 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                         <div class='info-counter-content'>
                                             <h5 class='info-counter-number'>
                                                 <!-- Counter No -->
-                                                <span class='counter'>1575</span>
+                                                <span class='counter'>10075</span>
                                                 <!-- Counter Title -->
-                                                <span class='info-counter-units'>PACIENTES ATENDIDIOS</span>
+                                                <span class='info-counter-units'>PACIENTES ATENDIDOS</span>
                                             </h5>
                                             <!-- Counter Paragraph -->
                                             <div class='info-counter-text'>CLIENTES FELICES</div>
@@ -1999,12 +2016,12 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                         <div class='info-counter-content'>
                                             <h5 class='info-counter-number'>
                                                 <!-- Counter No -->
-                                                <span class='counter'>985 </span>
+                                                <span class='counter'>79255 </span>
                                                 <!-- Counter Title -->
-                                                <span class='info-counter-units'>NOS RECOMIENDAN</span>
+                                                <span class='info-counter-units'>ESTAN HABLANDO DE NUESTROS TRATAMIENTOS</span>
                                             </h5>
                                             <!-- Counter Paragraph -->
-                                            <div class='info-counter-text'>SONRISAS DE PACIENTES</div>
+                                            <div class='info-counter-text'>CONSULTAS</div>
                                         </div>
                                     </div>
                                 </div>
@@ -2021,10 +2038,10 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 <!-- Counter No -->
                                                 <span class='counter'>3591</span>
                                                 <!-- Counter Title -->
-                                                <span class='info-counter-units'>TAZAS DE CAFÉ</span>
+                                                <span class='info-counter-units'>EMERGENCIAS ATENDIDAS</span>
                                             </h5>
                                             <!-- Counter Paragraph -->
-                                            <div class='info-counter-text'>Atencion personalizada</div>
+                                            <div class='info-counter-text'>TRATAMIENTOS EXITOSOS</div>
                                         </div>
                                     </div>
                                 </div>
@@ -2146,7 +2163,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                         <div class='work-info staff-info'>
                                             <h5>CESIA MAZA SÁNCHEZ</h5>
                                             <p>
-                                                <span>Odontología Integral</span>
+                                                <span>Odontología Especializada Preventiva e Integral</span>
                                             </p>                                           
                                             <p>
                                                 <a class='btn read-more' href='http://clinicamaza.blogspot.pe/p/doctora-cesia-maza-sanchez.html'>Leer mas</a>
@@ -2201,11 +2218,18 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                 <svg class='curveUpColor' height='100' preserveAspectRatio='none' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M0 100 C 20 0 50 0 100 100 Z'/>
                 </svg>
-                <!-- Clients Logos Section -->
+                
+
+
+
+
+
+<!-- Clientes Logos Section -->
                 <div class='wrap'>
                     <div class='grid grid-pad'>
                         <div class='col-1-1'>
                             <div class='content'>
+												<h2>TRABAJAMOS CON MATERIAL DE ESTADOS UNIDOS Y ALEMANIA</h2>
                                 <!-- Start of Carousel Container -->
                                 <div class='cl-logo-carousel col-sm-12'>
                                     
@@ -2249,7 +2273,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                         <a href='#'>
                                             <figure>
                                                 <!-- Clients Logos -->
-                                                <img alt='' src='https://4.bp.blogspot.com/-0LDyQHqXI6Y/WBN69Yu1O3I/AAAAAAAAFmw/ZlYF888fCkYRev-jKT8R8_EJonDsNAgXgCLcB/s320/ormco.JPG'/>
+                                                <img alt='' src='https://4.bp.blogspot.com/-03tWY4TBKT4/WBUWnYI_nZI/AAAAAAAAAxs/_HMEZA7lxz8Pz7-S9h7fvbC2_ji1wutdwCLcB/s1600/DN_ormco_logo.jpg'/>
                                             </figure>
                                         </a>
                                     </div><!-- End of item -->
@@ -2267,7 +2291,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                         <a href='#'>
                                             <figure>
                                                 <!-- Clients Logos -->
-                                                <img alt='' src='https://4.bp.blogspot.com/-0LDyQHqXI6Y/WBN69Yu1O3I/AAAAAAAAFmw/ZlYF888fCkYRev-jKT8R8_EJonDsNAgXgCLcB/s320/ormco.JPG'/>
+                                                <img alt='' src='https://4.bp.blogspot.com/-03tWY4TBKT4/WBUWnYI_nZI/AAAAAAAAAxs/_HMEZA7lxz8Pz7-S9h7fvbC2_ji1wutdwCLcB/s1600/DN_ormco_logo.jpg'/>
                                             </figure>
                                         </a>
                                     </div><!-- End of item -->
@@ -2389,7 +2413,7 @@ Cuidamos en todo momento la salud integral de nuestros pacientes, aplicando mode
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d1478027733466280292\x26blogName\x3dCLINICA+MASA\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://clinicamaza.blogspot.com/search\x26blogLocale\x3des_419\x26v\x3d2\x26homepageUrl\x3dhttps://clinicamaza.blogspot.com/\x26vt\x3d5044762548889891586&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d1478027733466280292\x26blogName\x3dCLINICA+MAZA\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://www.clinicamaza.com/search\x26blogLocale\x3des_419\x26v\x3d2\x26homepageUrl\x3dhttp://www.clinicamaza.com/\x26vt\x3d6117039199884849100&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -2783,6 +2807,6 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
         <script src='https://xhrist14n.github.io/sliders_video/bower_components/jquery-slider/js/jssor.utils.js' type='text/javascript'/>
         <script src='https://xhrist14n.github.io/sliders_video/bower_components/jquery-slider/js/jssor.slider.js' type='text/javascript'/>
         <script src='https://xhrist14n.github.io/sliders_video/bower_components/jquery-slider/js/jssor.player.ytiframe.js' type='text/javascript'/>    
-        <script src='https://xhrist14n.github.io/sliders_video/app/scripts/one.js'/>
+        <script src='https://xhrist14n.github.io/sliders_video/app/scripts/videos.js'/>
 </body>
 </html>
