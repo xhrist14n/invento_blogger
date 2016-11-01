@@ -105,11 +105,17 @@
     <nav class='navbar' data-offset-top='0' data-spy='affix' style='z-index:90000;margin-top: 0px;' id='menu-dc'>
       <div class='container'>
         <div class='navbar-header'>
-          <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>
+          <button 
+              aria-controls='navbar' 
+              aria-expanded='false' 
+              class='navbar-toggle collapsed' 
+              data-target='#menu-dc' 
+              data-toggle='collapse' 
+              type='button'>
             <span class='sr-only'>Toggle navigation</span>
-            <span class='icon-bar'/>
-            <span class='icon-bar'/>
-            <span class='icon-bar'/>
+            <span class='icon-bar' style="color:white;"/>
+            <span class='icon-bar' style="color:white;"/>
+            <span class='icon-bar' style="color:white;"/>
           </button>
           <a class='navbar-brand' href='#'>
 		<img src='https://2.bp.blogspot.com/-VOj-WinVDh0/WBOSu0J1GhI/AAAAAAAAFnA/Eixs5KWyh042XFbqNtJr08MlndKIYBQBwCLcB/s320/LOGO%2BLARGO.png' height="49px;" />

@@ -14,3 +14,7 @@ and open the template in the editor.
 .padding-recent{
     line-height: 110%;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
