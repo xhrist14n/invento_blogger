@@ -19,9 +19,19 @@ and open the template in the editor.
     background-color: white;
 }
 
+.slider_container_global{
+    min-height: 50px; 
+    margin-top:-50px;
+}
+
 @media (max-width: 767px){
     .navbar-default .navbar-toggle .icon-bar {
         background-color: white;
         color:white;
+    }
+    
+    .slider_container_global{
+        min-height: 50px; 
+        margin-top:10px;
     }
 }
