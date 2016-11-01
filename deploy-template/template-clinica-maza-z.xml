@@ -111,11 +111,13 @@
               class='navbar-toggle collapsed' 
               data-target='#menu-dc' 
               data-toggle='collapse' 
-              type='button'>
+              type='button'
+              id='btn-toggle'
+              >
             <span class='sr-only'>Toggle navigation</span>
-            <span class='icon-bar' style="color:white;"/>
-            <span class='icon-bar' style="color:white;"/>
-            <span class='icon-bar' style="color:white;"/>
+            <span class='icon-bar' >
+                <i class='fa-bars fa fa-lg' style="color:white;" ></i>
+            </span>
           </button>
           <a class='navbar-brand' href='#'>
 		<img src='https://2.bp.blogspot.com/-VOj-WinVDh0/WBOSu0J1GhI/AAAAAAAAFnA/Eixs5KWyh042XFbqNtJr08MlndKIYBQBwCLcB/s320/LOGO%2BLARGO.png' height="49px;" />
@@ -2669,6 +2671,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
         <script crossorigin='anonymous' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'/>        
         <script src='https://xhrist14n.github.io/invento_blogger/scripts/gallery_modals.js'/>        
         <script src='https://xhrist14n.github.io/invento_blogger/scripts/button_colors.js'/>        
+        <script src='https://xhrist14n.github.io/invento_blogger/scripts/menus.js'/>        
         
         <script src='https://xhrist14n.github.io/sliders_video/bower_components/jssor-slider/js/jssor.slider.mini.js'/>
         <script src='https://xhrist14n.github.io/sliders_video/bower_components/jquery-slider/js/jssor.core.js' type='text/javascript'/>
