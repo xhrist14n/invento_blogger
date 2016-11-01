@@ -94,19 +94,15 @@
         </script>        
         <link href='https://xhrist14n.github.io/sliders_video/app/styles/main.css' rel='stylesheet'/>
         <link href='https://xhrist14n.github.io/menus_boostrap/app/styles/main.css' rel='stylesheet'/>
+        <link href='https://xhrist14n.github.io/invento_blogger/styles/page-fix.css' rel='stylesheet'/>
     </head>
     <!--<body>-->
-<style>
-    #wb_ResponsiveMenu1>ul>li>a{
-        height:49px !important;
-    }
-</style>
 <body id='home'>
 	
 <!-- START MENU -->
 
     <!-- menu  init -->
-    <nav class='navbars' data-offset-top='0' data-spy='affix' style='z-index:1000;' id='menu-dc'>
+    <nav class='navbar' data-offset-top='0' data-spy='affix' style='z-index:90000;margin-top: 0px;' id='menu-dc'>
       <div class='container'>
         <div class='navbar-header'>
           <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>
