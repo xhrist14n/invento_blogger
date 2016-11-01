@@ -24,7 +24,7 @@
         <meta charset='UTF-8'/>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
                 
-        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'/>
         
         <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet'/>        
         <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp' rel='stylesheet'/>
@@ -96,258 +96,45 @@
     </head>
     <!--<body>-->
 <style>
-    #wb_ResponsiveMenu1>ul>li>a{
+    #wb_ResponsiveMenu1 &gt;ul&gt;li&gt;a{
         height:49px !important;
     }
 </style>
 <body id='home'>
 	
 
-        <header class='header-home' id='top-header'>
-            <div class='grid'>
-                <div class='col-1-1'>
-                    <div class='content' style='display:flex;justify-content:space-between;align-items:center;'>
-                        <div class='logo-wrap'>
-                            <b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
-                              <b:widget id='Header1' locked='true' title='CLINICA MAZA (Cabecera)' type='Header' version='1' visible='true'>
-                                <b:includable id='main'>
-                                        <b:if cond='data:useImage'>
-                                            <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
-                                                <!--
-                                                Show image as background to text. You can't really calculate the width
-                                                reliably in JS because margins are not taken into account by any of
-                                                clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
-                                                width if the user is using shrink to fit.
-                                                This results in a margin-width's worth of pixels being cropped. If the
-                                                user is not using shrink to fit then we expand the header.
-                                                -->
-                                                <b:if cond='data:mobile'>
-                                                    <div id='header-inner'>
-                                                        <div class='titlewrapper' style='background: transparent'>
-                                                            <h1 class='title logo' style='background: transparent; border-width: 0px'>
-                                                                <b:include name='title'/>
-                                                            </h1>
-                                                        </div>
-                                                        <b:include name='description'/>
-                                                    </div>
-                                                    <b:else/>
-                                                    <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                        + &quot;background-position: &quot;                        + data:backgroundPositionStyleStr + &quot;; &quot;                        + data:widthStyleStr                        + &quot;min-height: &quot; + data:height                        + &quot;_height: &quot; + data:height                        + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
-                                                        <div class='titlewrapper' style='background: transparent'>
-                                                            <h1 class='title logo' style='background: transparent; border-width: 0px'>
-                                                                <b:include name='title'/>
-                                                            </h1>
-                                                        </div>
-                                                        <b:include name='description'/>
-                                                    </div>
-                                                </b:if>
-                                                <b:else/>
-                                                <!--Show the image only-->
-                                                <div id='header-inner'>
-                                                    <a expr:href='data:blog.homepageUrl' style='display: block'>
-                                                        <img expr:alt='data:title' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' style='display: block'/>
-                                                    </a>
-                                                    <!--Show the description-->
-                                                    <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
-                                                        <b:include name='description'/>
-                                                    </b:if>
-                                                </div>
-                                            </b:if>
-                                            <b:else/>
-                                            <!--No header image -->
-                                            <div id='header-inner'>
-                                                <div class='titlewrapper'>
-                                                    <h1 class='title logo'>
-                                                        <b:include name='title'/>
-                                                    </h1>
-                                                </div>
-                                                <b:include name='description'/>
-                                            </div>
-                                        </b:if>
-                                    </b:includable>
-                                <b:includable id='description'>
-                                        <div class='descriptionwrapper'>
-                                            <p class='description'>
-                                                <span>
-                                                    <data:description/>
-                                                </span>
-                                            </p>
-                                        </div>
-                                    </b:includable>
-                                <b:includable id='title'>
-                                        <b:if cond='data:blog.url == data:blog.homepageUrl'>
-                                            <data:title/>
-                                            <b:else/>
-                                            <a expr:href='data:blog.homepageUrl'>
-                                                <data:title/>
-                                            </a>
-                                        </b:if>
-                                    </b:includable>
-                              </b:widget>
-                            </b:section>
-                        </div>
-                        <nav class='navigation' style='z-index: 2000;'>
-                            <input id='nav-button' type='checkbox'/>
-                            <label for='nav-button' onclick=''/>
-                            <ul class='nav-container'>
-                                <li class='current' style='font-size:16px;'>
-                                    <a href='http://clinicamaza.blogspot.pe/'>
-                                        INICIO
-                                    </a>
-                                </li>								
-                                <li style='font-size:16px;'>
-                                    <a href='http://clinicamaza.blogspot.pe/p/clinica-maza-nosotros-la-clinica-maza.html'>
-                                        NOSOTROS  
-                                    </a>
-                                </li>
-                                <li style='font-size:16px;'>                                     
-                                    <a href='#'>
-                                        ODONTOLOGIA                                      
-                                    </a>
-                                    <ul class='sub-menu'>
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/search/label/PROSTODONCIA'>
-                                                PROSTODONCIA
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/search/label/ESTETICA%20Y%20COMETICA%20DENETAL'>
-                                                ESTETICA Y COSMETICA DENTAL
-                                            </a>
-                                        </li>
-
-
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/tratamiento-periodontal_95.html'>
-                                                TRATAMIENTO PERIODONTAL 
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/curaciones-dentales-esteticas.html'>
-                                                CURACIONES DENTALES ESTETICAS 
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/ortodoncia.html'>
-
-                                                ORTODONCIA
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/endodoncias-sin-dolor.html'>
-                                                ENDODONCIAS SIN DOLOR
-                                            </a>
-                                        </li>                                 
-
-
-                                    </ul>
-                                </li>
-
-                                <li style='font-size:16px;'>                                     
-                                    <a href='#'>
-                                        MEDICINA                                    
-                                    </a>
-                                    <ul class='sub-menu'>
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/medicina-familiar-y-preventiva.html'>
-                                                MEDICINA FAMILIAR Y PREVENTIVA
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-medico-basico.html'>
-                                                CHEQUEO MEDICO BASICO
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-preventivo-diabetes.html'>
-                                                CHEQUEO PREVENTIVO DIABETES
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-femenino.html'>
-                                                CHEQUEO INTEGRAL FEMENINO 
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href='http://clinicamaza.blogspot.pe/2016/10/chequeo-integral-masculino.html'>
-                                                CHEQUEO INTEGRAL MASCULINO
-                                            </a>
-                                        </li>
-
-
-                                    </ul>
-                                </li>
-                                <li style='font-size:16px;'>
-                                    <a href='http://clinicamaza.blogspot.pe/#blog'>
-                                        GALERIA
-                                    </a>
-                                </li>
-                                <li style='font-size:16px;'>
-                                    <a href='http://clinicamaza.blogspot.pe/#team'>
-                                        STAFF DE PROFESIONALES
-                                    </a>
-                                </li>
-                                <li style='font-size:16px;'>
-                                    <a href='http://clinicamaza.blogspot.pe/p/contacto.html'>
-                                        CONTACTO</a>
-                                </li>
-
-                            </ul>
-                        </nav>
-
-                    </div>
-                </div>
-            </div>
-        </header>
-    
-    
-        <b:if cond='data:blog.pageType != &quot;item&quot;'>
-            <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-            
-                <div class='parallax-section parallax1' style='display:none;'>
-                    <div class='grid grid-pad'>
-                        <div class='col-1-1'>
-
-                            <!-- Jumbotron -->
-                            <div class='content content-header'>
-                                <!-- Jumbotron H2 -->
-                                <h2>We Are Creative Design Agency</h2>
-
-                                <!-- Jumbotron Paragraph -->
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, fuga, consectetur sequi consequuntur nisi placeat ullam maiores perferendis. Quod, nihil reiciendis saepe optio libero minus et beatae ipsam reprehenderit sequi.</p>
-
-                                <!-- Jumbotron Buttons -->
-                                <a class='btn btn-ghost' href='' target='_blank'>Find Out More</a>
-                                <a class='btn btn-ghost' href='' target='_blank'>Purchase Theme</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
 <!-- START MENU -->
+<style>
+  .recent-wrap{
+	background-image: url(&#39;https://2.bp.blogspot.com/-8bdM-SWOgYY/WBfGBB4Qj8I/AAAAAAAAFtE/PaxLdfjV7jYp8aGkWI92HLjYr-M2Tjg2gCLcB/s1600/azul.jpg&#39;) no-repeat center center fixed;
+}
+  #menu-dc{
+		background-color:#1160A7;
+	}
+@media (max-width: 767px){
+    .navbar-nav .open .dropdown-menu{background-color:#fff !important;}
 
+    .navbar-brand{padding:0;}
+
+}
+  .navbar-brand, .navbar-nav&gt;li&gt;a{color:#fff;}
+.navbar-brand, .navbar-nav&gt;li&gt;a:hover{color:#1160A7;}
+</style>
     <!-- menu  init -->
-    <nav class='navbar navbar-inverse' data-offset-top='197' data-spy='affix' style='z-index:1000;'>
+    <nav class='navbar' data-offset-top='197' data-spy='affix' id='menu-dc' style='z-index:1000;'>
       <div class='container'>
         <div class='navbar-header'>
           <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>
             <span class='sr-only'>Toggle navigation</span>
-            <span class='icon-bar'/>
-            <span class='icon-bar'/>
-            <span class='icon-bar'/>
+            <img alt='barmenu' src='https://1.bp.blogspot.com/-tclo7LPfn4k/WBfwgJvgBoI/AAAAAAAAFto/x24YP57YakYNS2LCZKXRFQENt3fGxHFswCLcB/s320/Untitled%2BLogo.png' width='30px'/>
           </button>
-          <a class='navbar-brand' href='#'>
-		<img src='https://2.bp.blogspot.com/-VOj-WinVDh0/WBOSu0J1GhI/AAAAAAAAFnA/Eixs5KWyh042XFbqNtJr08MlndKIYBQBwCLcB/s320/LOGO%2BLARGO.png' height="49px;" />
+          <a class='navbar-brand' href='#' style='padding:0;'>
+		<img height='49px;' src='https://4.bp.blogspot.com/-AbitBA8k1XI/WBfb0J14f8I/AAAAAAAAFtU/i-lLbE5ig7kT_E2pPesDn3IROKogIm5jQCLcB/s1600/logo-blanco-negro.png'/>
 	  </a>
         </div>
         <div class='navbar-collapse collapse' id='navbar'>
           <ul class='nav navbar-nav navbar-right'>
-            <li class='active'>
+            <li class='active colordc'>
               <a href='http://clinicamaza.blogspot.pe/'>
                 INICIO
               </a>
@@ -397,7 +184,7 @@
 
 
             </ul>
-            </li>
+          </li>
             <li class='dropdown'>
               <a aria-expanded='false' aria-haspopup='true' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
               MEDICINA
@@ -457,6 +244,34 @@
 
 <!-- END MENU -->
               
+    
+        <b:if cond='data:blog.pageType != &quot;item&quot;'>
+            <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+            
+                <div class='parallax-section parallax1' style='display:none;'>
+                    <div class='grid grid-pad'>
+                        <div class='col-1-1'>
+
+                            <!-- Jumbotron -->
+                            <div class='content content-header'>
+                                <!-- Jumbotron H2 -->
+                                <h2>We Are Creative Design Agency</h2>
+
+                                <!-- Jumbotron Paragraph -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, fuga, consectetur sequi consequuntur nisi placeat ullam maiores perferendis. Quod, nihil reiciendis saepe optio libero minus et beatae ipsam reprehenderit sequi.</p>
+
+                                <!-- Jumbotron Buttons -->
+                                <a class='btn btn-ghost' href='' target='_blank'>Find Out More</a>
+                                <a class='btn btn-ghost' href='' target='_blank'>Purchase Theme</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
 
 
 
@@ -721,6 +536,22 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
 
 </b:if>
 
+
+
+		<style>
+		.recent-wrap{
+			background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+			background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+			background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#a6000000&#39;, endColorstr=&#39;#00000000&#39;,GradientType=0 ); 
+			background-image: url(&#39;https://2.bp.blogspot.com/-8bdM-SWOgYY/WBfGBB4Qj8I/AAAAAAAAFtE/PaxLdfjV7jYp8aGkWI92HLjYr-M2Tjg2gCLcB/s1600/azul.jpg&#39;) no-repeat center center fixed;  
+			-webkit-background-size: cover;  
+			-moz-background-size: cover;  
+			-o-background-size: cover;  
+			background-size: cover;
+			
+		}
+		</style>
         <div class='wrap grey recent-wrap' id='work'>
             <div class='grid grid-pad'>
 
