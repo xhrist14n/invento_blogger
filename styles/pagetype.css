@@ -8,8 +8,11 @@
 }
 .recent-wrap {
     padding: 0 !important;
-    background-image: url('https://2.bp.blogspot.com/-8bdM-SWOgYY/WBfGBB4Qj8I/AAAAAAAAFtE/PaxLdfjV7jYp8aGkWI92HLjYr-M2Tjg2gCLcB/s1600/azul.jpg') no-repeat center center fixed;
+    background-image: url("https://2.bp.blogspot.com/-8bdM-SWOgYY/WBfGBB4Qj8I/AAAAAAAAFtE/PaxLdfjV7jYp8aGkWI92HLjYr-M2Tjg2gCLcB/s1600/azul.jpg");
+    background-repeat: no-repeat;
     padding-top: 100px !important;
+    background-position: right top;
+    background-attachment: fixed;
 }
 .contact {
     background: #fff !important;
