@@ -239,7 +239,7 @@
                 <div class="slider_container_global">
                     <div id='slider1_container' style='position: relative; top: 0px; left: 0px; width: 1300px;height: 618px;'>
                         <!-- Slides Container -->
-               s         <div style='cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 618px;overflow: hidden;' u='slides'>
+                       <div style='cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 618px;overflow: hidden;' u='slides'>
                             
                             <div>
                                 <div style='position: relative; top: 0px; left: 0px; width: 1300px; height: 618px; overflow: hidden;' u='player'>
