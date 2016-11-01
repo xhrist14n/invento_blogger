@@ -16,5 +16,11 @@ and open the template in the editor.
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: black;
+    background-color: white;
+}
+
+@media (max-width: 767px){
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+    }
 }
