@@ -61,5 +61,10 @@ h5 {
 
 .navbar-nav {
     min-height: 60px;
-    line-height: 60px;
+    line-height: 100%;
+}
+
+.navbar-nav>li>a {
+    min-height: 60px;
+    line-height: 100%;
 }
