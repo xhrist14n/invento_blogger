@@ -42,7 +42,15 @@ and open the template in the editor.
     line-height: 110%;
 }
 
-.h5 {
+h5 {
     line-height: 110%;
 }
 
+
+.data-info{
+    line-height: 120%;
+}
+
+.data-info h5{
+    line-height: 120%;
+}

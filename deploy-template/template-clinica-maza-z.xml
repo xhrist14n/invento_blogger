@@ -1960,9 +1960,11 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class='work-info staff-info'>
+                                        <div class='work-info staff-info data-info'>
                                             <!-- User Name --> 
-                                            <h5>JORGE MAZA SÁNCHEZ</h5>
+                                            <h5>
+                                                JORGE MAZA SÁNCHEZ
+                                            </h5>
                                             <!-- User Post -->
                                             <p>
                                                 <span>Especialista en Ortodoncia y Ortopedia Maxilofacial</span>
@@ -1996,7 +1998,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class='work-info staff-info'>
+                                        <div class='work-info staff-info data-info'>
                                             <h5>KATHERINE MAZA SÁNCHEZ</h5>
                                             <p>
                                                 <span>Especialista en Medicina Familiar y Comunitaria</span>
@@ -2030,7 +2032,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class='work-info staff-info'>
+                                        <div class='work-info staff-info data-info'>
                                             <h5>CESIA MAZA SÁNCHEZ</h5>
                                             <p>
                                                 <span>Odontología Especializada Preventiva e Integral</span>
@@ -2064,7 +2066,7 @@ Clinica maza, pensando en la importancia del cuidado de la salud y la vida, y co
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class='work-info staff-info'>
+                                        <div class='work-info staff-info data-info'>
                                             <h5>JONNATAN MAZA SÁNCJEZ</h5>
                                             <p>
                                                 <span>Especialista en Medicina Familiar y Comunitaria</span>
