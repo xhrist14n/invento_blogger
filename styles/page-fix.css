@@ -53,4 +53,6 @@ h5 {
 
 .data-info h5{
     line-height: 120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
