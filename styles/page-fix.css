@@ -57,3 +57,9 @@ h5 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+.navbar-nav {
+    min-height: 60px;
+    line-height: 100%;
+}
