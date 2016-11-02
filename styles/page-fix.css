@@ -68,5 +68,6 @@ h5 {
     margin:auto;
     min-height: 60px;
     line-height: 100%;
+    display: table-cell;
     vertical-align: middle;
 }
