@@ -65,6 +65,8 @@ h5 {
 }
 
 .navbar-nav>li>a {
+    margin:auto;
+    alignment-adjust:  auto;
     min-height: 60px;
     line-height: 100%;
 }
