@@ -32,6 +32,12 @@ and open the template in the editor.
     
     .slider_container_global{
         min-height: 50px; 
-        margin-top:10px;
+        margin-top:0px;
     }
+}
+
+.info-counter-content, .info-counter-content h5 {
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 110%;
 }
